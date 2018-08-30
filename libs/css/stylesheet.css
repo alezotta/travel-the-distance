@@ -1,0 +1,900 @@
+@font-face {
+    font-family: 'solferino';
+    font-style: bold;
+    font-weight: 700;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.woff?v=s201804061620") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.svgttf") format("svg");
+}
+
+@font-face{
+    font-family:'solferino';
+    src: url('https://alezotta.github.io/group08-corriere/font/SolferinoText-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:'solferino';
+    src: url('https://alezotta.github.io/group08-corriere/font/SolferinoText-Light.otf');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face{
+    font-family:'solferino';
+    src: url('https://alezotta.github.io/group08-corriere/font/SolferinoText-Italic.otf');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "brera";
+    font-style: normal;
+    font-weight: 400;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.woff") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.svg#BreraRegularttf") format("svg");
+}
+
+@font-face {
+    font-family: "brera";
+    font-style: bold;
+    font-weight: 700;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.woff") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.svg#BreraRegularttf") format("svg");
+}
+
+@font-face {
+    font-family: "brera";
+    font-style: heavy;
+    font-weight: 900;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.woff") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.svg#BreraHeavyttf") format("svg");
+}
+
+html {
+    font-size: 100%;
+    font-family: 'solferino', serif;
+}
+
+::selection {
+    color: #fbfbfb;
+    background-color: #191919;
+}
+
+a::selection {
+    color: #FCC64F;
+    background-color: #191919;
+}
+
+body {
+    font-family: 'solferino', serif;
+    background-color: #191919;
+    color: #fbfbfb;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.375rem;
+    width: 100%;
+    margin: 0;
+    transition: color,background-color 0.3s ease;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.01rem;
+    display: block;
+    orphans: 3;
+    widows: 3;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+
+i {
+    font-style: italic;
+}
+
+/* scatterplot */
+.label {
+    font-family: 'solferino', serif;
+    font-size: 0.625rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.axis-label {
+    font-family: 'brera', sans-serif;
+    font-size: 0.625rem;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    letter-spacing: 0.0125rem;
+}
+
+.axis {
+    font-family: 'brera', sans-serif;
+    font-size: 0.625rem;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    letter-spacing: 0.0125rem;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #ababab;
+  opacity: 0.2;
+  shape-rendering: crispEdges;
+}
+
+/* container e colonne */
+
+/*.container-bg-black {
+    background-color: #191919;
+    color: #ffffff;
+}
+
+.container-bg-light {
+    background-color: #FBF8EF;
+    color: #191919;
+}*/
+
+.large-column {
+    max-width: 56.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-column {
+    max-width: 32.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    height: 100%;
+    width: 100%;
+}
+
+.separator {
+    display: inline-block;
+    margin-bottom:0px;
+}
+
+#phenomenon, #context, #issue, #remark {
+    padding-top: 15px;
+}
+
+.focus-card {
+    /*background-color: #f3f1ec;*/
+    border: 1px solid #ababab;
+    border-radius: 3px;
+    position: relative;
+    color: #4a4a4a;
+    box-sizing: border-box;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 12px;
+}
+
+.focus-card p {
+    padding: 20px 24px;
+    font-family: 'brera', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+}
+
+.focus-card hr {
+   border: 0.5px solid #ababab; 
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+/* nav */
+
+.topnav {
+    background: #191919;
+    display: flex;
+    font-family: 'brera', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    flex-wrap: wrap;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    z-index: 999;
+}
+
+.topnav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.topnav a:hover {
+    /*color: #C15846;*/
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-link {
+    margin-right: 8px;
+    display: block;
+    padding: 13px 24px;
+    transition: padding 0.3s ease;
+}
+
+.active {
+    /*color: #FCC64F;*/
+    /*background-color: rgba(255,255,255,0.15);
+    padding: 4px;*/
+    padding-bottom: 2px;
+    border-bottom: solid 1px #C15846;
+    transition: border-bottom 0.3s ease;
+}
+
+.inactive {
+    /*background-color: rgba(255,255,255,0);
+    padding: 4px;*/
+    padding-bottom: 2px;
+    border-bottom: solid 1px #191919;
+    transition: border-bottom 0.3s ease;
+}
+
+.topnav span:hover {
+    border-bottom: solid 1px #C15846;
+}
+
+.topnav .chapters {
+    display: none;
+}
+
+header {
+    font-family: 'brera', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    z-index: 9999;
+}
+
+.header {
+    position: fixed;
+    right: 0;
+}
+
+.lang {
+    float: right;
+    margin-left: 2px;
+    display: block;
+    padding: 13px 24px 13px 12px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header span {
+    padding-bottom: 2px;
+    border-bottom: solid 1px #191919;
+}
+
+header span:hover {
+    padding-bottom: 2px;
+    border-bottom: solid 1px #FCC64F;
+    transition: border-bottom 0.3s ease;
+}
+
+.currentLang {
+    padding-bottom: 2px;
+    border-bottom: solid 1px #FCC64F;
+}
+
+/* titolo iniziale */
+
+h1 {
+    font-family: "solferino", serif;
+    text-align: center;
+    font-size: 4.5rem;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0.15rem;
+    line-height: 4rem;
+    position: relative;
+    color: #FCC64F;
+    padding-top: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+h1::selection {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #C15846;
+}
+
+/* sottotitolo iniziale */
+
+h2 {
+    font-family: "brera", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    padding-top: 20px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+/* titolo sezione */
+
+h3 {
+    font-family: "solferino", serif;
+    font-size: 4.2rem;
+    text-align: left;
+    font-weight: 700;
+    line-height: 5rem;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    padding-top: 80px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    transition: 0.3s all;
+}
+
+h3:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #C15846;
+    margin: 2rem 0;
+}
+
+h3::selection {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fbfbfb;
+}
+
+/*.h3-on-black {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FBF8EF;
+}*/
+
+h4 {
+    font-family: 'solferino', serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: inline-block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h5 {
+    font-family: 'brera', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    padding: 0 30px 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+.viz h5 {
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+h6 {
+    font-family: 'solferino', serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    /*color: #2E2E2D;*/
+    padding-top: 1.625rem;
+    padding-bottom: 1rem;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.legend-title {
+    font-family: 'brera', sans-serif;
+    font-weight: 700;
+    padding-bottom: 0px!important;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    /*color:#ababab;*/
+    font-size: 0.75rem!important;
+    letter-spacing: 0.075rem;
+}
+
+.legend-key {
+    font-family: 'brera', sans-serif;
+    font-weight: 900;
+    /*font-size: 1rem;*/
+}
+
+.visual-key {
+    margin: 0 24px 20px;
+    max-width: 470px;
+    width: calc(100% - 48px);
+}
+
+.yellow {
+    color: #e4ad34;
+}
+
+.brown {
+    color: #a18c66;
+}
+
+.howto {
+    color: #2E2E2D;
+    font-family: 'brera', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.howto:before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #ababab;
+    margin: 0.625rem auto;
+}
+
+/* immagini */
+
+.placeholder {
+    max-width: 100%;
+}
+
+img {
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.dida {
+    max-width: 300px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.download-icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* visualizzazioni */
+
+.viz {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+svg {
+    max-width: 100%;
+    display: block;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.textPallini {
+    fill: #ffffff;
+    font-size: 36px;
+}
+
+.viz-3 {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0px!important;
+}
+
+.container-outer {
+    overflow: scroll;
+    position: relative;
+    width: auto;
+    -webkit-overflow-scrolling: touch; 
+}
+
+.flussi-andata {
+    height: 380px;
+    width: auto;
+}
+
+/* fonti */
+
+.sources {
+    position: relative;
+    right: 0;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.sources p {
+    font-family: 'brera', sans-serif;
+    text-align: right;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #ababab;
+    padding-top: 8px;
+    padding-bottom: 0;
+}
+
+.sources a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+.sources a:hover {
+    color: #FCC64F;
+    text-decoration: none;
+    border-bottom: 1px solid #FCC64F;
+}
+
+.container-bg-light .sources p {
+    color: #808080;
+}
+
+.container-bg-light .sources a {
+    text-decoration: none;
+    color: #808080;;
+}
+
+.container-bg-light .sources a:hover {
+    text-decoration: none;
+    color: #191919;
+    border-bottom: 1px solid #191919;
+}
+
+/* footer */
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #FBF8EF;
+}
+
+footer p{
+    font-family: 'brera', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align:center;
+    font-size: 0.75rem;
+    letter-spacing: 0.02rem;
+    color: #191919;
+}
+
+.author {
+    font-weight: 700;
+}
+
+.about-card {
+    border: 1px solid #777;
+    border-radius: 3px;
+    position: relative;
+    color: #e9e9e9;
+    box-sizing: border-box;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    margin: 150px 0 50px 0;
+    padding-top: 24px;
+}
+
+.about-card p {
+    padding: 0 30px 20px 30px;
+    font-family: 'brera', sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.about-card hr {
+   border: 0.5px solid #777; 
+   margin-top: 8px;
+   margin-bottom: 24px;
+}
+
+.about-card a {
+    color: #e9e9e9;
+    text-decoration: none;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.about-card a:hover {
+    color: #FCC64F;
+    text-decoration: none;
+    border-bottom: 1px solid #FCC64F;
+}
+
+.tornaSu {
+    text-decoration: none;
+    font-family: 'brera', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.tornaSu:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #191919;
+}
+
+.loghi {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo-dd {
+    width: 80px; 
+    display: inline-block;
+    padding: 2px 15px;
+}
+
+.logo-poli {
+    width: 100px;
+    display: inline-block;
+    padding: 2px 15px;
+}
+
+/* elementi di stile */
+
+.highlight-ondark {
+    background-color: rgba(255,255,255,0.15);
+}
+
+.highlight-onlight {
+    background-color: rgba(0,0,0,0.05);
+}
+
+hr {
+   border: 0.5px solid #777; 
+   margin-top: 30px;
+   margin-bottom: 24px;
+}
+
+.nogap {
+    margin: 0px;
+    padding: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-before: 0px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.mobile-hide {
+    display: inline-block;
+}
+
+.changeColor {
+    background-color: #F9F8F4;
+    color: #191919;
+}
+
+.changeColor-outline {
+    -webkit-text-stroke-color: #191919;
+}
+
+.make-light {
+    color: #ccc!important;
+}
+
+/* mobile */
+
+@media screen and (max-width: 52.75rem) {
+    .nav-link {
+        margin-right: 0px;
+        padding: 13px 18px;
+    }
+
+    .lang {
+        margin-left: 2px;
+        padding: 13px 18px;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+
+    h1 {
+        /*padding-top: 40%;*/
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        line-height: 3.4rem;
+    }
+
+    h5 {
+        padding: 0 20px 18px;
+    }
+
+    .large-column {
+        max-width: 43.75rem;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .main-column {
+        max-width: 540px;
+    }
+
+    .nav-link {
+        margin-right: 0px;
+        padding: 13px 12px;
+    }
+
+    .lang {
+        margin-left: 2px;
+        padding: 13px 12px;
+    }
+
+    .focus-card {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .focus-card p {
+        padding: 20px;
+        font-size: 0.9375rem;
+    }
+
+    .legend-title {
+        font-size: 0.875rem!important;
+    }
+
+    .textPallini {
+        font-size: 25px;
+    }
+
+    .viz {
+        padding: 20px 0;
+    }
+
+    .about-card {
+        max-width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .about-card p {
+        padding: 0 20px 20px 20px;
+        font-size: 1rem;
+    }
+
+    .mobile-only {
+        display: inline-block;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 39.375rem) {
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.chapters {
+        display: block;
+    }
+
+    .topnav.responsive {
+        height: auto;
+    }
+
+    .topnav.responsive a.chapters {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: left;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 30rem) {
+    
+    h1 {
+        padding-top: 40%;
+        font-size: 2rem;
+        line-height: 1.1875rem;
+        letter-spacing: 0.1rem;
+    }
+
+    h2 {
+        font-size: 0.875rem;
+        letter-spacing: 0.1rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.01rem;
+    }
+
+    .lang {
+        padding-left: 4px;
+    }
+
+}
+
+
+/* colori
+
+nero = #191919
+grigio scuro = #333333
+grigio chiaro = #777777
+giallo = #FCC64F
+panna = #FBF8EF
+rosso = #C15846
+
+sfondo giallo = #FBF8EF
+sfondo più chiaro = F9F8F4
+
+*/
