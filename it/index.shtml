@@ -9,7 +9,7 @@
 	<!--#set var="description_page" value="inserire descrizione infografica" -->
 	<!--#set var="keywords_page" value="inserire keywords infografica" -->
 	<!--#set var="image_page" value="inserire percorso immagine principale infografica" -->
-	<!--#set var="dir_page" value="_master_infografica" -->
+	<!--#set var="dir_page" value="travel-the-distance" -->
 	<!-- ### fine Completare le variabili SEO ### -->
 
 	<title>Verso la Siria</title>
@@ -31,7 +31,7 @@
 
 	<!-- ### inserire qui sotto i Custom Assets [css,js] ### -->
 
-	<link rel="icon" type="image/png" href="../images/favicon.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="https://alezotta.github.io/travel-the-distance/images/favicon.png" sizes="16x16">
 
 	<link href="../libs/css/stylesheet.css" rel="stylesheet">  
 
