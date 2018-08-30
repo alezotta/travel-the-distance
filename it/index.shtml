@@ -3775,7 +3775,7 @@
             </div>
 
             <div id="viz-6">
-                <script src="../js/viz6.js"></script>
+                <script src="../libs/js/viz6.js"></script>
             </div>
 
             <div class="sources">

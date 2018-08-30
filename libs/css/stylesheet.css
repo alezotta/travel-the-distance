@@ -11,21 +11,21 @@
 
 @font-face{
     font-family:'solferino';
-    src: url('https://alezotta.github.io/group08-corriere/font/SolferinoText-Regular.otf');
+    src: url('https://alezotta.github.io/travel-the-distance/fonts/SolferinoText-Regular.otf');
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face{
     font-family:'solferino';
-    src: url('https://alezotta.github.io/group08-corriere/font/SolferinoText-Light.otf');
+    src: url('https://alezotta.github.io/travel-the-distance/fonts/SolferinoText-Light.otf');
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face{
     font-family:'solferino';
-    src: url('https://alezotta.github.io/group08-corriere/font/SolferinoText-Italic.otf');
+    src: url('https://alezotta.github.io/travel-the-distance/fonts/SolferinoText-Italic.otf');
     font-style: italic;
     font-weight: 400;
 }
