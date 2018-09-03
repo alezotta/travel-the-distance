@@ -42,38 +42,6 @@
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-light-webfont.svgttf") format("svg");
 }
 
-/*@font-face{
-    font-family:'solferino';
-    src: url('https://alezotta.github.io/travel-the-distance/libs/fonts/SolferinoText-Regular.otf');
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "solferino_regular";
-    font-style: normal;
-    font-weight: normal;
-    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.eot");
-    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.eot?#iefix") format("embedded-opentype"), 
-         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.woff?v=s201804061620") format("woff"), 
-         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.ttf") format("truetype"), 
-         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.svgttf") format("svg");
-}
-
-@font-face{
-    font-family:'solferino';
-    src: url('https://alezotta.github.io/travel-the-distance/libs/fonts/SolferinoText-Light.otf');
-    font-style: normal;
-    font-weight: 300;
-}
-
-@font-face{
-    font-family:'solferino';
-    src: url('https://alezotta.github.io/travel-the-distance/libs/fonts/SolferinoText-Italic.otf');
-    font-style: italic;
-    font-weight: 400;
-}*/
-
 @font-face {
     font-family: "brera";
     font-style: normal;
@@ -110,7 +78,6 @@
 html {
     font-size: 100%;
     font-family: 'solferino_regular', serif;
-    /*font-family: 'solferino', serif;*/
 }
 
 ::selection {
@@ -125,11 +92,9 @@ a::selection {
 
 body {
     font-family: 'solferinotext-light-webfont', serif;
-    /*font-family: 'solferino', serif;*/
     background-color: #191919;
     color: #fbfbfb;
     font-size: 1rem;
-    /*font-weight: 300;*/
     line-height: 1.375rem;
     width: 100%;
     margin: 0;
@@ -153,7 +118,6 @@ p {
 }
 
 i {
-    /*font-style: italic;*/
     font-family: "solferino_italic", serif;
     font-style: normal!important;
 }
@@ -161,7 +125,6 @@ i {
 /* scatterplot */
 .label {
     font-family: 'solferino_regular', serif;
-    /*font-family: 'solferino', serif;*/
     font-size: 0.625rem;
     -webkit-font-smoothing: antialiased;
 }
@@ -190,16 +153,6 @@ i {
 }
 
 /* container e colonne */
-
-/*.container-bg-black {
-    background-color: #191919;
-    color: #ffffff;
-}
-
-.container-bg-light {
-    background-color: #FBF8EF;
-    color: #191919;
-}*/
 
 .large-column {
     max-width: 56.25rem;
@@ -230,7 +183,6 @@ i {
 }
 
 .focus-card {
-    /*background-color: #f3f1ec;*/
     border: 1px solid #ababab;
     border-radius: 3px;
     position: relative;
@@ -284,7 +236,6 @@ i {
 }
 
 .topnav a:hover {
-    /*color: #C15846;*/
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -297,17 +248,12 @@ i {
 }
 
 .active {
-    /*color: #FCC64F;*/
-    /*background-color: rgba(255,255,255,0.15);
-    padding: 4px;*/
     padding-bottom: 2px;
     border-bottom: solid 1px #C15846;
     transition: border-bottom 0.3s ease;
 }
 
 .inactive {
-    /*background-color: rgba(255,255,255,0);
-    padding: 4px;*/
     padding-bottom: 2px;
     border-bottom: solid 1px #191919;
     transition: border-bottom 0.3s ease;
@@ -373,10 +319,8 @@ header span:hover {
 
 h1 {
     font-family: 'title-bold', serif;
-    /*font-family: 'solferino', serif;*/
     text-align: center;
     font-size: 4.5rem;
-    /*text-transform: uppercase;*/
     letter-spacing: 0.15rem;
     line-height: 4rem;
     position: relative;
@@ -413,10 +357,8 @@ h2 {
 
 h3 {
     font-family: 'title-bold', serif;
-    /*font-family: 'solferino', serif;*/
     font-size: 4.2rem;
     text-align: left;
-    /*font-weight: 700;*/
     line-height: 5rem;
     color: transparent;
     -webkit-text-stroke-width: 1px;
@@ -444,15 +386,8 @@ h3::selection {
     -webkit-text-stroke-color: #fbfbfb;
 }
 
-/*.h3-on-black {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FBF8EF;
-}*/
-
 h4 {
     font-family: 'title-bold', serif;
-    /*font-family: 'solferino', serif;*/
-    /*font-weight: 700;*/
     font-size: 1.25rem;
     line-height: 1.7rem;
     padding-top: 30px;
@@ -482,10 +417,7 @@ h5 {
 
 h6 {
     font-family: 'title-bold', serif;
-    /*font-family: 'solferino', serif;*/
-    /*font-weight: 700;*/
     font-size: 1.125rem;
-    /*color: #2E2E2D;*/
     padding-top: 1.625rem;
     padding-bottom: 1rem;
     -webkit-margin-before: 0px;
@@ -500,7 +432,6 @@ h6 {
     padding-bottom: 0px!important;
     margin-bottom: -10px;
     text-transform: uppercase;
-    /*color:#ababab;*/
     font-size: 0.75rem!important;
     letter-spacing: 0.075rem;
 }
@@ -508,7 +439,6 @@ h6 {
 .legend-key {
     font-family: 'brera', sans-serif;
     font-weight: 900;
-    /*font-size: 1rem;*/
 }
 
 .visual-key {
@@ -790,24 +720,7 @@ hr {
 
 /* mobile */
 
-/*@media screen and (max-width: 52.75rem) {
-    .nav-link {
-        margin-right: 0px;
-        padding: 13px 18px;
-    }
-
-    .lang {
-        margin-left: 2px;
-        padding: 13px 18px;
-    }
-}*/
-
 @media screen and (max-width: 48rem) {
-
-    /*h1 {
-        font-size: 4rem;
-        line-height: 4rem;
-    }*/
 
     h1 {
         padding-top: 40%;
@@ -846,16 +759,6 @@ hr {
     .main-column {
         max-width: 540px;
     }
-
-    /*.nav-link {
-        margin-right: 0px;
-        padding: 13px 12px;
-    }*/
-
-    /*.lang {
-        margin-left: 2px;
-        padding: 13px 12px;
-    }*/
 
     .lang {
         padding-left: 4px;
@@ -930,61 +833,6 @@ hr {
         display: none;
     }
 }
-
-/*@media screen and (max-width: 39.375rem) {
-    .topnav a {
-        display: none;
-    }
-
-    .topnav a.chapters {
-        display: block;
-    }
-
-    .topnav.responsive {
-        height: auto;
-    }
-
-    .topnav.responsive a.chapters {
-        position: relative;
-        left: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: left;
-        display: block;
-        text-align: left;
-        width: 100%;
-    }
-
-}*/
-
-/*@media screen and (max-width: 30rem) {
-    
-    h1 {
-        padding-top: 40%;
-        font-size: 2rem;
-        line-height: 1.1875rem;
-        letter-spacing: 0.1rem;
-    }
-
-    h2 {
-        font-size: 0.875rem;
-        letter-spacing: 0.1rem;
-    }
-
-    p {
-        font-size: 1.125rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.01rem;
-    }
-
-    .lang {
-        padding-left: 4px;
-    }
-
-}*/
-
 
 /* colori
 
