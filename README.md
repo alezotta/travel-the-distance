@@ -12,3 +12,5 @@ https://alezotta.github.io/travel-the-distance/en/index.shtml
 * update **all** `legends` for dataviz
 * add `pallini`
 * finilize `viz 4`
+
+* favicon is not showing up
