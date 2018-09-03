@@ -789,7 +789,7 @@ hr {
 
 /* mobile */
 
-@media screen and (max-width: 52.75rem) {
+/*@media screen and (max-width: 52.75rem) {
     .nav-link {
         margin-right: 0px;
         padding: 13px 18px;
@@ -799,15 +799,14 @@ hr {
         margin-left: 2px;
         padding: 13px 18px;
     }
-}
+}*/
 
 @media screen and (max-width: 48rem) {
 
-    h1 {
-        /*padding-top: 40%;*/
+    /*h1 {
         font-size: 4rem;
         line-height: 4rem;
-    }
+    }*/
 
     h3 {
         font-size: 3rem;
@@ -816,6 +815,24 @@ hr {
 
     h5 {
         padding: 0 20px 18px;
+    }
+
+    h1 {
+        padding-top: 40%;
+        font-size: 2rem;
+        line-height: 1.1875rem;
+        letter-spacing: 0.1rem;
+    }
+
+    h2 {
+        font-size: 0.875rem;
+        letter-spacing: 0.1rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.01rem;
     }
 
     .large-column {
@@ -828,14 +845,43 @@ hr {
         max-width: 540px;
     }
 
-    .nav-link {
+    /*.nav-link {
         margin-right: 0px;
         padding: 13px 12px;
-    }
+    }*/
 
-    .lang {
+    /*.lang {
         margin-left: 2px;
         padding: 13px 12px;
+    }*/
+
+    .lang {
+        padding-left: 4px;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.chapters {
+        display: block;
+    }
+
+    .topnav.responsive {
+        height: auto;
+    }
+
+    .topnav.responsive a.chapters {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: left;
+        display: block;
+        text-align: left;
+        width: 100%;
     }
 
     .focus-card {
@@ -883,7 +929,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 39.375rem) {
+/*@media screen and (max-width: 39.375rem) {
     .topnav a {
         display: none;
     }
@@ -909,9 +955,9 @@ hr {
         width: 100%;
     }
 
-}
+}*/
 
-@media screen and (max-width: 30rem) {
+/*@media screen and (max-width: 30rem) {
     
     h1 {
         padding-top: 40%;
@@ -935,7 +981,7 @@ hr {
         padding-left: 4px;
     }
 
-}
+}*/
 
 
 /* colori
