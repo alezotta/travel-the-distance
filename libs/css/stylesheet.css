@@ -43,9 +43,9 @@
 }
 
 @font-face {
-    font-family: "brera";
+    font-family: "main-regular";
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.eot");
     src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.eot?#iefix") format("embedded-opentype"), 
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.woff") format("woff"), 
@@ -54,9 +54,9 @@
 }
 
 @font-face {
-    font-family: "brera";
-    font-style: bold;
-    font-weight: 700;
+    font-family: "main-bold";
+    font-style: normal;
+    font-weight: normal;
     src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.eot");
     src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.eot?#iefix") format("embedded-opentype"), 
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.woff") format("woff"), 
@@ -65,9 +65,9 @@
 }
 
 @font-face {
-    font-family: "brera";
-    font-style: heavy;
-    font-weight: 900;
+    font-family: "main-heavy";
+    font-style: normal;
+    font-weight: normal;
     src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.eot");
     src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.eot?#iefix") format("embedded-opentype"), 
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerahv-webfont.woff") format("woff"), 
@@ -213,9 +213,8 @@ i {
 .topnav {
     background: #191919;
     display: flex;
-    font-family: 'brera', sans-serif;
+    font-family: 'main-bold', sans-serif;
     font-size: 0.75rem;
-    font-weight: 700;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     justify-content: left;
@@ -268,9 +267,8 @@ i {
 }
 
 header {
-    font-family: 'brera', sans-serif;
+    font-family: 'main-bold', sans-serif;
     font-size: 0.75rem;
-    font-weight: 700;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     display: inline-block;
@@ -400,8 +398,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'brera', sans-serif;
-    font-weight: 700;
+    font-family: 'main-bold', sans-serif;
     font-size: 0.9375rem;
     padding: 0 30px 20px;
     text-transform: uppercase;
@@ -427,8 +424,7 @@ h6 {
 }
 
 .legend-title {
-    font-family: 'brera', sans-serif;
-    font-weight: 700;
+    font-family: 'main-bold', sans-serif;
     padding-bottom: 0px!important;
     margin-bottom: -10px;
     text-transform: uppercase;
@@ -437,8 +433,7 @@ h6 {
 }
 
 .legend-key {
-    font-family: 'brera', sans-serif;
-    font-weight: 900;
+    font-family: 'main-heavy', sans-serif;
 }
 
 .visual-key {
@@ -457,8 +452,7 @@ h6 {
 
 .howto {
     color: #2E2E2D;
-    font-family: 'brera', sans-serif;
-    font-weight: 400;
+    font-family: 'main-regular', sans-serif;
     font-size: 0.875rem;
     text-align: center;
 }
@@ -547,7 +541,7 @@ svg {
 }
 
 .sources p {
-    font-family: 'brera', sans-serif;
+    font-family: 'main-regular', sans-serif;
     text-align: right;
     font-size: 0.75rem;
     line-height: 1.125rem;
@@ -591,9 +585,8 @@ footer {
 }
 
 footer p{
-    font-family: 'brera', sans-serif;
+    font-family: 'main-regular', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     text-align:center;
     font-size: 0.75rem;
     letter-spacing: 0.02rem;
@@ -601,7 +594,7 @@ footer p{
 }
 
 .author {
-    font-weight: 700;
+    font-family: "main-bold", sans-serif!important;
 }
 
 .about-card {
@@ -619,7 +612,7 @@ footer p{
 
 .about-card p {
     padding: 0 30px 20px 30px;
-    font-family: 'brera', sans-serif;
+    font-family: 'main-regular', sans-serif;
     font-size: 0.9375rem;
     line-height: 1.5rem;
 }
@@ -644,9 +637,8 @@ footer p{
 
 .tornaSu {
     text-decoration: none;
-    font-family: 'brera', sans-serif;
+    font-family: 'main-bold', sans-serif;
     font-size: 0.7rem;
-    font-weight: 700;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     color: #191919;
