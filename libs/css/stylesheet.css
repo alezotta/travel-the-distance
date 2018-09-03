@@ -42,7 +42,6 @@
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-light-webfont.svgttf") format("svg");
 }
 
-
 /*@font-face{
     font-family:'solferino';
     src: url('https://alezotta.github.io/travel-the-distance/libs/fonts/SolferinoText-Regular.otf');
@@ -372,7 +371,7 @@ header span:hover {
 /* titolo iniziale */
 
 h1 {
-    font-family: 'solferino_regular', serif;
+    font-family: 'title-bold', serif;
     /*font-family: 'solferino', serif;*/
     text-align: center;
     font-size: 4.5rem;
