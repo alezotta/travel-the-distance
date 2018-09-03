@@ -155,6 +155,7 @@ p {
 i {
     /*font-style: italic;*/
     font-family: "solferino_italic", serif;
+    font-style: normal!important;
 }
 
 /* scatterplot */
