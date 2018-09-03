@@ -9,6 +9,40 @@
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.svgttf") format("svg");
 }
 
+@font-face {
+    font-family: 'solferino_italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-italic-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-italic-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-italic-webfont.woff?v=s201804061620") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-italic-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-italic-webfont.svgttf") format("svg");
+}
+
+@font-face {
+    font-family: 'solferino_regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.woff?v=s201804061620") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-regular-webfont.svgttf") format("svg");
+}
+
+@font-face {
+    font-family: 'solferinotext-light-webfont';
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-light-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-light-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-light-webfont.woff?v=s201804061620") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-light-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-light-webfont.svgttf") format("svg");
+}
+
+
 /*@font-face{
     font-family:'solferino';
     src: url('https://alezotta.github.io/travel-the-distance/libs/fonts/SolferinoText-Regular.otf');
@@ -120,7 +154,8 @@ p {
 }
 
 i {
-    font-style: italic;
+    /*font-style: italic;*/
+    font-family: "solferino_italic", serif;
 }
 
 /* scatterplot */
@@ -446,8 +481,9 @@ h5 {
 }
 
 h6 {
-    font-family: 'solferino', serif;
-    font-weight: 700;
+    font-family: 'title-bold', serif;
+    /*font-family: 'solferino', serif;*/
+    /*font-weight: 700;*/
     font-size: 1.125rem;
     /*color: #2E2E2D;*/
     padding-top: 1.625rem;
