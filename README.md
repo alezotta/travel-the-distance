@@ -13,4 +13,5 @@ https://alezotta.github.io/travel-the-distance/en/index.shtml
 * add `pallini`
 * finilize `viz 4`
 
+### Bugs
 * favicon is not showing up
