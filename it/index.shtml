@@ -21,21 +21,21 @@
     <meta property="og:site_name" content="Verso la Siria"/>
     <meta property="og:title" content="Verso la Siria">
     <meta property="og:description" content="Integrazione e radicalizzazione. Un’analisi visiva del viaggio che allontana."/>
-    <meta property="og:image" content="../images/cover.jpg">
+    <meta property="og:image" content="https://alezotta.github.io/travel-the-distance/images/cover.jpg">
     <meta property="og:image:type" content="image/jpg" /> 
     <meta property="og:image:width" content="1200" /> 
     <meta property="og:image:height" content="630" /> 
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@densitydesign">
-    <meta property="twitter:creator" content="@densitydesign" />
+    <meta property="twitter:creator" content="@densitydesign"/>
     <meta name="twitter:title" content="Verso la Siria">
     <meta name="twitter:description" content="Integrazione e radicalizzazione. Un’analisi visiva del viaggio che allontana.">
-    <meta name="twitter:image" content="../images/cover.jpg">
+    <meta name="twitter:image" content=".https://alezotta.github.io/travel-the-distance/images/cover.jpg">
 
     <meta itemprop="name" content="Building Hopes by Accurat and Google News Lab"/> 
     <meta itemprop="description" content="Integrazione e radicalizzazione. Un’analisi visiva del viaggio che allontana."/> 
-    <meta itemprop="image" content="../images/cover.jpg"/> 
+    <meta itemprop="image" content="https://alezotta.github.io/travel-the-distance/images/cover.jpg"/> 
 
 	<!-- *** head di sistema *** -->
 	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/head.shtml"-->
