@@ -428,7 +428,7 @@ h6 {
 }
 
 .legend-title {
-    font-family: 'main-bold', sans-serif;
+    font-family: 'main-bold', sans-serif!important;
     padding-bottom: 0px!important;
     margin-bottom: -10px;
     text-transform: uppercase;
