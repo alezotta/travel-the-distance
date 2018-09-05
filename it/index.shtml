@@ -52,7 +52,7 @@
 
 	<link rel="icon" type="image/png" href="https://alezotta.github.io/travel-the-distance/images/favicon.png" sizes="16x16">
 
-	<link href="https://alezotta.github.io/travel-the-distance/libs/css/stylesheet.css?v=1" rel="stylesheet">  
+	<link href="https://alezotta.github.io/travel-the-distance/libs/css/stylesheet.css?v=2" rel="stylesheet">  
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-random.v0.2.min.js"></script>
@@ -108,7 +108,7 @@
 
     <section id="title">
     <div id="introduction">
-        <h1>Verso la Birmania</h1>
+        <h1>Verso la Siria</h1>
         <h2>Il viaggio dei foreign fighter <br class="mobile-only">oltre confine</h2>
     </section>
             <div class="large-column">

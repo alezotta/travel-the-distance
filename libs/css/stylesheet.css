@@ -130,7 +130,7 @@ i {
 }
 
 .axis-label {
-    font-family: 'brera', sans-serif;
+    font-family: 'main-regular', sans-serif;
     font-size: 0.625rem;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
@@ -138,7 +138,7 @@ i {
 }
 
 .axis {
-    font-family: 'brera', sans-serif;
+    font-family: 'main-regular', sans-serif;
     font-size: 0.625rem;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
@@ -197,7 +197,7 @@ i {
 
 .focus-card p {
     padding: 20px 24px;
-    font-family: 'brera', sans-serif;
+    font-family: 'main-regular', sans-serif;
     font-size: 0.875rem;
     line-height: 1.375rem;
 }
@@ -339,7 +339,7 @@ h1::selection {
 /* sottotitolo iniziale */
 
 h2 {
-    font-family: "brera", sans-serif;
+    font-family: 'main-regular', sans-serif;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
