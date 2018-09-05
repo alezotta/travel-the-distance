@@ -3779,17 +3779,23 @@
 
             <div class="focus-card">
                 <p class="legend-title">Legenda</p>
-                <p>Il grafico riporta il rapporto tra il <span class="legend-key">coefficiente di Gini</span> e la <span class="legend-key">popolazione musulmana</span> di ogni stato. La dimensione di ogni rombo rappresenta il <span class="legend-key">rapporto tra il numero di foreign fighter e la popolazione musulmana per milione</span>. Dimensioni maggiori significano più foreign fighter rispetto alla popolazione musulmana del paese.</p>
+                <p>Il grafico riporta il rapporto tra il <span class="legend-key">coefficiente di Gini</span> e la <span class="legend-key">popolazione musulmana</span> di ogni stato. La dimensione di ogni rombo rappresenta il <span class="legend-key">rapporto tra il numero di foreign fighter e la popolazione musulmana</span>. Dimensioni maggiori significano più foreign fighter rispetto alla popolazione musulmana del paese.</p>
                 <img class="visual-key" src="../images/visualkey_6.png"/>
                 <hr/>
                 <p><b>Coefficiente di Gini</b>: indice che misura la disuguaglianza nella distribuzione del reddito dei residenti di una nazione. È un numero compreso tra 0 e 1, dove 0 corrisponde a un’assoluta uguaglianza e 1 (o 100%) corrisponde a una totale disuguaglianza. <span class="highlight-onlight">I paesi con un valore basso sono quelli dove il reddito è distribuito più equamente</span>.</p>
+                <p>Il dato economico non è disponibile per i seguenti paesi: Afganistan, Algeria, Arabia Saudita, Bahrain, Egitto, Emirati Arabi Uniti, Giordania, Iraq, Kuwait, Libano, Libia, Nuova Zelanda, Qatar, Singapore, Somalia, Yemen.</p>
             </div>
 
-            <p class="howto nogap">Sposta il mouse sul grafico</p>
+            <p class="howto nogap mobile-hide">Sposta il mouse sul grafico</p>
+            <p class="howto nogap mobile-only">Versione interattiva da desktop</p>
             </div>
 
-            <div id="viz-6">
+            <div class="mobile-hide" id="viz-6">
                 <script src="../libs/js/viz6.js"></script>
+            </div>
+
+            <div class="mobile-only viz">
+                <img class="visual-key" src="../images/visualkey_6.png"/>
             </div>
 
             <div class="sources">
