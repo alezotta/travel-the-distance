@@ -203,9 +203,13 @@ i {
 }
 
 .focus-card hr {
-   border: 0.75px solid #ababab; 
+   border: 0.5px solid #ababab; 
    margin-top: 0px;
    margin-bottom: 0px;
+}
+
+.nopadtop {
+    padding-top: 0px!important;
 }
 
 /* nav */
@@ -694,7 +698,7 @@ hr {
 }
 
 .mobile-hide {
-    display: inline-block;
+    display: block;
 }
 
 .changeColor {
@@ -818,7 +822,7 @@ hr {
     }
 
     .mobile-only {
-        display: inline-block;
+        display: block;
     }
 
     .mobile-hide {

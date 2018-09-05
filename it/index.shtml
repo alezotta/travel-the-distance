@@ -3783,7 +3783,7 @@
                 <img class="visual-key" src="../images/visualkey_6.png"/>
                 <hr/>
                 <p><b>Coefficiente di Gini</b>: indice che misura la disuguaglianza nella distribuzione del reddito dei residenti di una nazione. È un numero compreso tra 0 e 1, dove 0 corrisponde a un’assoluta uguaglianza e 1 (o 100%) corrisponde a una totale disuguaglianza. <span class="highlight-onlight">I paesi con un valore basso sono quelli dove il reddito è distribuito più equamente</span>.</p>
-                <p>Il dato economico non è disponibile per i seguenti paesi: Afganistan, Algeria, Arabia Saudita, Bahrain, Egitto, Emirati Arabi Uniti, Giordania, Iraq, Kuwait, Libano, Libia, Nuova Zelanda, Qatar, Singapore, Somalia, Yemen.</p>
+                <p class="nopadtop">Il dato economico non è disponibile per i seguenti paesi dello studio: Afganistan, Algeria, Arabia Saudita, Bahrain, Egitto, Emirati Arabi Uniti, Giordania, Iraq, Kuwait, Libano, Libia, Nuova Zelanda, Qatar, Singapore, Somalia, Yemen.</p>
             </div>
 
             <p class="howto nogap mobile-hide">Sposta il mouse sul grafico</p>
