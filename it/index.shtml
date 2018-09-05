@@ -52,7 +52,7 @@
 
 	<link rel="icon" type="image/png" href="https://alezotta.github.io/travel-the-distance/images/favicon.png" sizes="16x16">
 
-	<link href="../libs/css/stylesheet.css" rel="stylesheet">  
+	<link href="https://alezotta.github.io/travel-the-distance/libs/css/stylesheet.css?v=1" rel="stylesheet">  
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-random.v0.2.min.js"></script>
