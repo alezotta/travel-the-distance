@@ -441,8 +441,8 @@ h6 {
 }
 
 .legend-note {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: 0.75rem!important;
+    line-height: 1rem!important;
     color: #777!important;
 }
 
@@ -520,7 +520,7 @@ svg {
 
 .textPallini {
     fill: #ffffff;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .viz-3 {
@@ -808,7 +808,7 @@ hr {
     }
 
     .textPallini {
-        font-size: 25px;
+        font-size: 12px;
     }
 
     .viz {
