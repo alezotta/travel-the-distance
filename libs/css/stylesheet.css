@@ -440,6 +440,12 @@ h6 {
     font-family: 'main-heavy', sans-serif;
 }
 
+.legend-note {
+    font-size: 0.75rem!important;
+    line-height: 1rem!important;
+    color: #777!important;
+}
+
 .visual-key {
     margin: 0 24px 20px;
     max-width: 470px;

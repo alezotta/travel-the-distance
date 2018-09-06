@@ -48,7 +48,7 @@ let yAxis = d3.axisLeft(y)
               .ticks(10)
               .tickSize(- width + margin)
 
-d3.csv("../libs/data/viz6.csv", function(error, data) {
+d3.csv("../libs/data/viz6_it.csv", function(error, data) {
 	if (error) throw error
 
 	x.domain(d3.extent(data, d => +d.muslim_population))
