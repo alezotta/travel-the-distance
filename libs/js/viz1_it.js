@@ -24,7 +24,7 @@ let svg = d3.select("#viz-1")
 .attr("height", height)
 //.style("background", "#191919")
 
-let randomX = d3.randomUniform(margin, canvas)
+let randomX = d3.randomUniform(innerMargin, canvas)
 let randomY = d3.randomUniform(innerMargin, height - innerMargin)
 
 let pallini = 2915*multi
