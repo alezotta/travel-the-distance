@@ -83,7 +83,7 @@ d3.csv("../libs/data/viz6_it.csv", function(error, data) {
     	.append("rect")
         .attr("class", d => "square_" + d.continent + " square")
       	.style("fill-opacity", 0.4)
-      	.style("fill", d => {console.log(d); return colors(d => d.continent)})
+      	.style("fill", d => {console.log(d); return colors(d.continent)})
       	.style("stroke-width", 1)
       	.style("stroke", colors(d => d.continent))
       	.style("stroke-opacity", 1)
