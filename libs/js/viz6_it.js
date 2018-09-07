@@ -1,4 +1,6 @@
-;(let width = 858
+function viz6() {
+
+let width = 858
 let height = 520
 let margin = 42
 
@@ -207,4 +209,7 @@ d3.csv("../libs/data/viz6_it.csv", function(error, data) {
       svg.select(".y.axis").call(yAxis)
   	}
 
-}))()
+})
+}
+
+viz6();
