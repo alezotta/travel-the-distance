@@ -120,16 +120,10 @@
                     </div>
                 </div>
              
-
         <div id="viz-1" class="viz">
             <script src="../libs/js/viz1_it.js"></script>
-
-                <!--img class="mobile-hide" src="../images/pallini_900.svg"-->
-                <!--img class="mobile-only" src="../images/pallini_520.svg"-->
         </div>
 
-            
-            
                 <div class="sources">
                     <p>Fonti: <a href="https://icct.nl/" target="_blank">International Centre for Counter-Terrorism – The Hauge</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
                     <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-ondark.svg"/> <a href="https://www.dropbox.com/s/u7pw8wcmjvr4e56/dataset_viz_1.csv?dl=0" target="_blank">Scarica dataset</a>
