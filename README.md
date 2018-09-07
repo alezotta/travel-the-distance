@@ -9,10 +9,10 @@ https://alezotta.github.io/travel-the-distance/en/index.shtml
  / + $directory infografica + $percorso risorsa` remember metatags, images, css, js, **data in viz6.js**, it/en (?)
 * test connection to RCS server
 
-* update **all** `legends` for dataviz — Hacker
+* update **all** `legends` for dataviz — Hacker?
 * finilize `viz 4` — Marcone
-* add `pallini` — Lis
-* add `viz 6 scatterplot` mobile version — Lis
+* fix text `pallini` — Lis
 
 ### Bugs
 * favicon is not showing up
+* color categories not working in `scatterplot`
