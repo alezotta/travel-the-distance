@@ -11,8 +11,6 @@ https://alezotta.github.io/travel-the-distance/en/index.shtml
 
 * update **all** `legends` for dataviz — Hacker?
 * finilize `viz 4` — Marcone
-* fix text `pallini` — Lis
 
 ### Bugs
 * favicon is not showing up
-* color categories not working in `scatterplot`
