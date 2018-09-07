@@ -148,7 +148,7 @@ d3.csv("../libs/data/viz6_it.csv", function(error, data) {
       squares
       .attr("x", d => xScale(d.muslim_population) - size(d.ff_mln)/2)
       .attr("y", d => yScale(d.GINI_index) - size(d.ff_mln)/2)
-      .style("fill-opacity", 0.8)
+      .style("fill-opacity", 0.7)
       .attr("transform", d => `rotate(-45 ${xScale(d.muslim_population)} ${yScale(d.GINI_index)})`)
 
       circles
