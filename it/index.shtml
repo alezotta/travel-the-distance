@@ -122,7 +122,7 @@
              
 
         <div id="viz-1" class="viz">
-            <!--script src="../libs/js/viz1_it.js"></script-->
+            <script src="../libs/js/viz1_it.js"></script>
 
                 <!--img class="mobile-hide" src="../images/pallini_900.svg"-->
                 <!--img class="mobile-only" src="../images/pallini_520.svg"-->
