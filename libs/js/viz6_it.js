@@ -74,7 +74,7 @@ d3.csv("../libs/data/viz6_it.csv", function(error, data) {
   	.attr("transform", "translate(" + margin + ",0)")
   	.call(yAxis)
 
-console.log(colors(d => d.continent))
+console.log( d.continent)
 
   //graph
   let squares = svg.selectAll("svg")
