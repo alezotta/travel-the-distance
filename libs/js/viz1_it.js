@@ -64,21 +64,21 @@ for (let i = 0; i < pallini; i++) {
 }
 
 	svg.append("text")
-	.attr("x", width/2)
+	.attr("x", canvas/2 - innerMargin)
 	.attr("y", 500)
 	.text("Più di 30’000 combattenti hanno aderito volontariamente alla causa o sono stati obbligati dallo Stato Islamico a partire")
 	.attr("text-anchor", "middle")
 	.attr("class", "textPallini")
 
 	svg.append("text")
-	.attr("x", width/2)
+	.attr("x", canvas/2 - innerMargin)
 	.attr("y", 1000)
 	.text("Più di 83’351’800 km sono stati percorsi per raggiungere l’area del conflitto")
 	.attr("text-anchor", "middle")
 	.attr("class", "textPallini")
 
 	svg.append("text")
-	.attr("x", width/2)
+	.attr("x", canvas/2 - innerMargin)
 	.attr("y", 1500)
 	.text("Si ha conoscenza dettagliata di solo 2’887 foreign fighter")
 	.attr("text-anchor", "middle")
