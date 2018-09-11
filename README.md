@@ -1,6 +1,6 @@
 # Travel the Distance ✕ La Lettura
 ## Italian version
-https://alezotta.github.io/travel-the-distance-git/it/index.shtml
+https://alezotta.github.io/travel-the-distance-git/index.shtml
 ## English version
 https://alezotta.github.io/travel-the-distance-git/en/index.shtml
 
@@ -11,6 +11,3 @@ https://alezotta.github.io/travel-the-distance-git/en/index.shtml
 * paste reviewed texts
 
 * create English html
-
-### Bugs
-* favicon is not showing up
