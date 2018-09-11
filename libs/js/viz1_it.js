@@ -62,7 +62,7 @@ for (let i = 0; i < pallini; i++) {
 		}
 	})
 }
-
+/*
 	svg.append("text")
 	.attr("x", canvas/2 - innerMargin)
 	.attr("y", 500)
@@ -83,7 +83,7 @@ for (let i = 0; i < pallini; i++) {
 	.text("Si ha conoscenza dettagliata di solo 2’887 foreign fighter")
 	.attr("text-anchor", "middle")
 	.attr("class", "textPallini")
-
+*/
 }
 
 viz1();

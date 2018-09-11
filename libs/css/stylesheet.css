@@ -478,10 +478,6 @@ h6 {
 
 /* immagini */
 
-.placeholder {
-    max-width: 100%;
-}
-
 img {
     margin: 0 auto;
     right: 0;
@@ -518,9 +514,38 @@ svg {
     margin: auto;
 }
 
-.textPallini {
-    fill: #ffffff;
-    font-size: 20px;
+.text-pallini {
+    position: relative;
+}
+
+.text-pallini p{
+    color: #fff;
+    text-align: center;
+    font-family: 'solferino_regular', serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.text-pallini #textP-1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.text-pallini #textP-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.text-pallini #textP-3{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+
+#textP-1, #textP-2, #textP-3 {
+    transform: translate(-50%, -50%);
 }
 
 .viz-3 {
