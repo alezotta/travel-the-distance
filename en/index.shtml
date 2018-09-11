@@ -84,7 +84,7 @@
 
     <header class="header">
             <a href="#"><div class="lang"><span class="currentLang">ENG</span></div></a>
-            <a href="../it/index.shtml"><div class="lang"><span>ITA</span></div></a>
+            <a href="../index.shtml"><div class="lang"><span>ITA</span></div></a>
     </header>
 
     <section id="title">
