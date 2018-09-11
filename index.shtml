@@ -48,11 +48,11 @@
 
 	<link rel="icon" type="image/png" href="https://alezotta.github.io/travel-the-distance-git/images/favicon.png" sizes="16x16">
 
-	<link href="../libs/css/stylesheet.css?v=2" rel="stylesheet">  
+	<link href="https://alezotta.github.io/travel-the-distance-git/libs/css/stylesheet.css?v=2" rel="stylesheet">  
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-random.v0.2.min.js"></script>
-    <script src="../libs/js/fisheye.js"></script>
+    <script src="https://alezotta.github.io/travel-the-distance-git/libs/js/fisheye.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
@@ -98,7 +98,7 @@
     </nav>
 
     <header class="header">
-            <a href="../en/index.shtml"><div class="lang"><span>ENG</span></div></a>
+            <a href="https://alezotta.github.io/travel-the-distance-git/en/index.shtml"><div class="lang"><span>ENG</span></div></a>
             <a href="#"><div class="lang"><span class="currentLang">ITA</span></div></a>
     </header>
 
@@ -112,12 +112,12 @@
                     <div class="focus-card make-light">
                     <p class="legend-title">Legenda</p>
                     <p>I punti di seguito rappresentano un singolo <span class="legend-key">foreign fighter</span>: il colore indica il genere, se disponibile, della persona.</p>
-                    <img class="visual-key" src="../images/visualkey_1.png"/>
+                    <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_1.png"/>
                     </div>
                 </div>
              
         <div id="viz-1" class="viz text-pallini">
-            <script src="../libs/js/viz1_it.js"></script>
+            <script src="https://alezotta.github.io/travel-the-distance-git/libs/js/viz1_it.js"></script>
             <p id="textP-1">Più di 30’000 combattenti hanno aderito volontariamente alla causa o sono stati obbligati dallo Stato Islamico a partire</p>
             <p id="textP-2">Più di 83’351’800 km sono stati percorsi per raggiungere l’area del conflitto</p>
             <p id="textP-3">Si ha conoscenza dettagliata di solo 2’887 foreign fighter</p>
@@ -125,7 +125,7 @@
 
                 <div class="sources">
                     <p>Fonti: <a href="https://icct.nl/" target="_blank">International Centre for Counter-Terrorism – The Hauge</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                    <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-ondark.svg"/> <a href="https://www.dropbox.com/s/u7pw8wcmjvr4e56/dataset_viz_1.csv?dl=0" target="_blank">Scarica dataset</a>
+                    <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-ondark.svg"/> <a href="https://www.dropbox.com/s/u7pw8wcmjvr4e56/dataset_viz_1.csv?dl=0" target="_blank">Scarica dataset</a>
                     </p>
                     
                 </div>
@@ -147,7 +147,7 @@
             <div class="focus-card">
             <p class="legend-title">Legenda</p>
             <p>I quadrati di seguito mostrano quanti foreign fighter hanno viaggiato fino ai territori del conflitto. I valori rappresentati con la dimensione di ogni quadrato sono il <span class="legend-key">numero di combattenti</span> che ha lasciato il proprio paese.</p>
-            <img class="visual-key" src="../images/visualkey_2.png"/>
+            <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_2.png"/>
             </div>
 
             <p class="howto nogap">Fai click sui quadrati per vedere i valori</p>
@@ -2519,7 +2519,7 @@
             <div class="sources">
                 
                 <p>Source: <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/z572rt0dln20sj6/dataset_viz_2.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/z572rt0dln20sj6/dataset_viz_2.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
                     
             </div>
@@ -2530,7 +2530,7 @@
             <div class="focus-card">
             <p class="legend-title">Legenda</p>
             <p>Alla chiamata per unirsi al gruppo terroristico hanno risposto persone da tutto il mondo, pure dai paesi più distanti. Sulla mappa sottostante, la posizione di ogni paese riflette la <span class="legend-key">distanza geografica</span> tra ogni paese e la destinazione. I paesi verso sinistra si trovano a ovest rispetto alla destinazione; i paesi verso destra si trovano a est rispetto alla destinazione.</p>
-            <img class="visual-key" src="../images/visualkey_3.png"/>
+            <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_3.png"/>
             </div>
 
             <p class="howto">Scorri la mappa orizzontalmente</p>
@@ -2539,7 +2539,7 @@
     </div>
         <div id="flussi-scrollable" class="row container-outer">
             <div id="container-inner-flussi" class="container-inner">
-                <img class="viz-3 flussi-andata viz" src="../images/viz-3_flussi_ita.svg">
+                <img class="viz-3 flussi-andata viz" src="https://alezotta.github.io/travel-the-distance-git/images/viz-3_flussi_ita.svg">
             </div>
         </div>
 
@@ -2547,7 +2547,7 @@
            
             <div class="sources">
                 <p>Fonte: <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/e193wfn8gculx0f/dataset_viz_3.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/e193wfn8gculx0f/dataset_viz_3.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
         </div>
@@ -2564,27 +2564,27 @@
                 <div class="focus-card">
                 <p class="legend-title">Legenda</p>
                 <p>I triangoli di seguito mostrano il rapporto tra la <span class="legend-key">popolazione musulmana</span> di una nazione ed il <span class="legend-key">numero di foreign fighter</span> partiti dalla stessa; le nazioni sono ordinante per il numero di combattenti, divise per il rapporto tra stato e religione; il colore rappresenta il continente di appartenenza.</p>
-                <img class="visual-key" src="../images/visualkey_4.png"/>
+                <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_4.png"/>
                 </div>
                 
             </div>
 
             <div class="viz">
                 <h5>Paesi laici</h5>
-                <img src="../images/test.svg"/>
+                <img src="https://alezotta.github.io/travel-the-distance-git/images/test.svg"/>
             </div>
             <div class="viz">
                 <h5>Paesi religiosi</h5>
-                <img src="../images/test2.svg"/>
+                <img src="https://alezotta.github.io/travel-the-distance-git/images/test2.svg"/>
             </div>
             <div class="viz">
                 <h5>Paesi ambigui</h5>   
-                <img src="../images/test3.svg"/>
+                <img src="https://alezotta.github.io/travel-the-distance-git/images/test3.svg"/>
             </div>
 
             <div class="sources">
                 <p>Fonti: <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/tlxjjj27eoetvvl/dataset_viz_4.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/tlxjjj27eoetvvl/dataset_viz_4.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
 
@@ -2596,7 +2596,7 @@
                 <div class="focus-card">
                 <p class="legend-title">Legenda</p>
                 <p>Il grafico mostra la distribuzione delle correnti islamiche <span class="legend-key brown">Sciita</span> e <span class="legend-key yellow">Sunnita</span> nelle nazioni musulmane. I valori sono normalizzati a 100% per ogni paese.</p>
-                <img class="visual-key" src="../images/visualkey_5.png"/>
+                <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_5.png"/>
                 </div>
                 
                 <p class="howto nogap">Fai click sui quadrati per vedere i valori</p>
@@ -3762,7 +3762,7 @@
             
             <div class="sources">
                 <p>Source: <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/d4ozlvrpm5pytet/dataset_viz_5.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/d4ozlvrpm5pytet/dataset_viz_5.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
 
@@ -3775,7 +3775,7 @@
             <div class="focus-card">
                 <p class="legend-title">Legenda</p>
                 <p>Il grafico riporta il rapporto tra il <span class="legend-key">coefficiente di Gini</span> e la <span class="legend-key">popolazione musulmana</span> di ogni stato. La dimensione di ogni rombo rappresenta il <span class="legend-key">rapporto tra il numero di foreign fighter e la popolazione musulmana</span>. Dimensioni maggiori significano più foreign fighter rispetto alla popolazione musulmana del paese.</p>
-                <img class="visual-key" src="../images/visualkey_6.png"/>
+                <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_6.png"/>
                 <hr/>
                 <p><b>Coefficiente di Gini</b>: indice che misura la disuguaglianza nella distribuzione del reddito dei residenti di una nazione. È un numero compreso tra 0 e 1, dove 0 corrisponde a un’assoluta uguaglianza e 1 (o 100%) corrisponde a una totale disuguaglianza. <span class="highlight-onlight">I paesi con un valore basso sono quelli dove il reddito è distribuito più equamente</span>.</p>
                 <p class="nopadtop legend-note">Il dato economico non è disponibile per i seguenti paesi dello studio: Afganistan, Algeria, Arabia Saudita, Bahrain, Egitto, Emirati Arabi Uniti, Giordania, Iraq, Kuwait, Libano, Libia, Nuova Zelanda, Qatar, Singapore, Somalia, Yemen.</p>
@@ -3786,16 +3786,16 @@
             </div>
 
             <div class="mobile-hide" id="viz-6">
-                <script src="../libs/js/viz6_it.js"></script>
+                <script src="https://alezotta.github.io/travel-the-distance-git/libs/js/viz6_it.js"></script>
             </div>
 
             <div class="mobile-only viz">
-                <img src="../images/viz6_it.svg"/>
+                <img src="https://alezotta.github.io/travel-the-distance-git/images/viz6_it.svg"/>
             </div>
 
             <div class="sources">
                 <p>Fonti: <a href="http://data.worldbank.org/" target="_blank">The World Bank</a>, <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/hwi08ssck1df2ay/dataset_viz_6.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/hwi08ssck1df2ay/dataset_viz_6.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
         </div>
@@ -3811,7 +3811,7 @@
                 <div class="focus-card">
                 <p class="legend-title">Legenda</p>
                 <p>La mappa riporta l’intensità e il numero di attacchi rivendicati dall’ISIS in Europa e area mediterranea tra il 2012 e il 2015. La dimensione del rombo rappresenta il <span class="legend-key">numero di attacchi</span>, mentre l’intensità del colore il <span class="legend-key">numero di vittime</span>.</p>
-                <img class="visual-key" src="../images/visualkey_7.png"/>
+                <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_7.png"/>
                 </div>
                 
                 <p class="howto nogap">Fai click sulla mappa per vedere i valori</p>
@@ -4269,7 +4269,7 @@
 
             <div class="sources">
                 <p>Source: <a href="https://www.start.umd.edu/gtd/" target="_blank">Global Terrorism Database</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/yed3njh273skmg0/dataset_viz_7.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/yed3njh273skmg0/dataset_viz_7.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
 
@@ -4288,7 +4288,7 @@
                 <div class="focus-card make-light">
                 <p class="legend-title">Legenda</p>
                 <p>La mappa mostra il rateo di foreign fighter rispetto alla popolazione musulmana per ogni nazione espresso in parti per milione.</p>
-                <img class="visual-key" src="../images/visualkey_8.png"/>
+                <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_8.png"/>
                 </div>
                 
                 <p class="howto nogap make-light">Fai click sulla mappa per vedere i valori</p>
@@ -8963,7 +8963,7 @@
 
             <div class="sources">
                 <p>Fonti: <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/group08-corriere/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/q23k9qsyp6nyifj/dataset_viz_8.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/q23k9qsyp6nyifj/dataset_viz_8.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
 
@@ -9001,16 +9001,16 @@
                 <a href="#title" class="tornaSu">torna su</a>
 
             <div class="loghi">
-                <img class="logo-dd" src="../images/logo_density_black.png">
-                <img class="logo-poli" src="../images/logo_poli_black.png">
+                <img class="logo-dd" src="https://alezotta.github.io/travel-the-distance-git/images/logo_density_black.png">
+                <img class="logo-poli" src="https://alezotta.github.io/travel-the-distance-git/images/logo_poli_black.png">
             </div>
 
             </footer>
         </div>
     </div>
 
-<script src="../libs/js/viz.js" defer></script>
-<script src="../libs/js/index.js"></script>
+<script src="https://alezotta.github.io/travel-the-distance-git/libs/js/viz.js" defer></script>
+<script src="https://alezotta.github.io/travel-the-distance-git/libs/js/index.js"></script>
 
 <script>
 $(document).ready(function(){
