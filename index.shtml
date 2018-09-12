@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="it">
-<!-- add this to html tag: prefix="og: //ogp.me/ns#" -->
+<html class="no-js" lang="it" prefix="og: //ogp.me/ns#">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="msapplication-tap-highlight" content=no>
@@ -34,7 +33,7 @@
     <meta name="twitter:description" content="Integrazione e radicalizzazione. Un’analisi visiva del viaggio che allontana.">
     <meta name="twitter:image" content=".https://alezotta.github.io/travel-the-distance-git/images/cover.jpg">
 
-    <meta itemprop="name" content="Building Hopes by Accurat and Google News Lab"/> 
+    <meta itemprop="name" content="Verso la Siria"/> 
     <meta itemprop="description" content="Integrazione e radicalizzazione. Un’analisi visiva del viaggio che allontana."/> 
     <meta itemprop="image" content="https://alezotta.github.io/travel-the-distance-git/images/cover.jpg"/> 
 
