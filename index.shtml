@@ -2546,7 +2546,7 @@
         <div class="large-column">
            
             <div class="sources">
-                <p>Fonte: <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
+                <p>Fonti: <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a>, <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></p>
                 <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/e193wfn8gculx0f/dataset_viz_3.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
@@ -2583,7 +2583,7 @@
             </div>
 
             <div class="sources">
-                <p>Fonti: <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
+                <p>Fonti: <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a>, <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a></p>
                 <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/tlxjjj27eoetvvl/dataset_viz_4.csv?dl=0" target="_blank">Scarica il dataset</a>
                 </p>
             </div>
@@ -8985,7 +8985,7 @@
             <hr/>
 
             <h5>Autori</h5>
-            <p>Gli autori di questo progetto hanno curato la ricerca, l'analisi e la visualizzazione dei dati, il design e lo sviluppo del codice: <span class="author">Serena Del Nero</span>, <span class="author">Marco Mezzadra</span>, <span class="author">Claudia Pazzaglia</span>, <span class="author">Alessandro Riva</span>, <span class="author">Alessandro Zotta</span>.</p>
+            <p>Gli autori di questo progetto hanno curato la ricerca, l'analisi e la visualizzazione dei dati, il design e lo sviluppo del codice: <span class="author">Serena Del Nero</span>, <span class="author">Marco Mezzadra</span>, <span class="author">Claudia Pazzaglia</span>, <span class="author">Alessandro Riva</span>, <span class="author"><a href="http://alessandrozotta.it" target="_blank">Alessandro Zotta</a></span>.</p>
             <p>Il progetto è stato prodotto nel Laboratorio di Sintesi Finale di Density Design, corso Magistrale in Design della Comunicazione al Politecnico di Milano. Docenti: Paolo Ciuccarelli, Marco Fattore, Stefano Mandato, Michele Mauri, Salvatore Zingale. Assistenti: Angeles Briones, Azzurra Pini, Tommaso Elli, Michele Invernizzi.</p>
             </div>
 

@@ -640,6 +640,14 @@ footer p{
     font-family: "main-bold", sans-serif!important;
 }
 
+.author a{
+    border-bottom: 1px solid #191919;
+}
+
+.author a:hover {
+    border-bottom: 1px solid #FCC64F;
+}
+
 .about-card {
     border: 1px solid #777;
     border-radius: 3px;
