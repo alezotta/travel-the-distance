@@ -641,11 +641,11 @@ footer p{
 }
 
 .author a{
-    border-bottom: 1px solid #191919;
+    border-bottom: 1px solid #191919!important;
 }
 
 .author a:hover {
-    border-bottom: 1px solid #FCC64F;
+    border-bottom: 1px solid #FCC64F!important;
 }
 
 .about-card {

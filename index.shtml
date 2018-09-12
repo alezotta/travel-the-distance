@@ -48,7 +48,7 @@
 
 	<link rel="icon" type="image/png" href="https://alezotta.github.io/travel-the-distance-git/images/favicon.png" sizes="16x16">
 
-	<link href="https://alezotta.github.io/travel-the-distance-git/libs/css/stylesheet.css?v=2" rel="stylesheet">  
+	<link href="https://alezotta.github.io/travel-the-distance-git/libs/css/stylesheet.css?v=3" rel="stylesheet">  
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-random.v0.2.min.js"></script>
@@ -8985,7 +8985,7 @@
             <hr/>
 
             <h5>Autori</h5>
-            <p>Gli autori di questo progetto hanno curato la ricerca, l'analisi e la visualizzazione dei dati, il design e lo sviluppo del codice: <span class="author">Serena Del Nero</span>, <span class="author">Marco Mezzadra</span>, <span class="author">Claudia Pazzaglia</span>, <span class="author">Alessandro Riva</span>, <span class="author"><a href="http://alessandrozotta.it" target="_blank">Alessandro Zotta</a></span>.</p>
+            <p>Gli autori di questo progetto hanno curato la ricerca, l'analisi e la visualizzazione dei dati, il design e lo sviluppo del codice: <span class="author">Serena Del Nero</span>, <span class="author">Marco Mezzadra</span>, <span class="author"><a href="https://www.behance.net/claudiapazzaglia" target="_blank">Claudia Pazzaglia</a></span>, <span class="author">Alessandro Riva</span>, <span class="author"><a href="http://alessandrozotta.it" target="_blank">Alessandro Zotta</a></span>.</p>
             <p>Il progetto è stato prodotto nel Laboratorio di Sintesi Finale di Density Design, corso Magistrale in Design della Comunicazione al Politecnico di Milano. Docenti: Paolo Ciuccarelli, Marco Fattore, Stefano Mandato, Michele Mauri, Salvatore Zingale. Assistenti: Angeles Briones, Azzurra Pini, Tommaso Elli, Michele Invernizzi.</p>
             </div>
 
