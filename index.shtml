@@ -12,7 +12,7 @@
 	<!--#set var="dir_page" value="travel-the-distance" -->
 	<!-- ### fine Completare le variabili SEO ### -->
 
-	<title>Verso la Siria</title>
+	<title>Verso la Siria | La Lettura</title>
 	<meta name="description" content="Integrazione e radicalizzazione. Un’analisi visiva del viaggio che allontana.">
     <meta name="author" content="S. Del Nero, M. Mezzadra, C. Pazzaglia, A. Riva, A. Zotta">
     <meta name="keywords" content="dataviz,visualization,data,information design,visual data,storytelling,infographic,density design">
@@ -144,11 +144,11 @@
 
             <div class="focus-card">
             <p class="legend-title">Legenda</p>
-            <p>I quadrati di seguito mostrano quanti foreign fighter hanno viaggiato fino ai territori del conflitto. I valori rappresentati con la dimensione di ogni quadrato sono il <span class="legend-key">numero di combattenti</span> che ha lasciato il proprio paese.</p>
+                <p>I rombi di seguito mostrano quanti foreign fighter hanno viaggiato fino ai territori del conflitto. Il valore rappresentato con la dimensione di ogni rombo è il <span class="legend-key">numero di combattenti</span> che ha lasciato il proprio Paese.</p>
             <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_2.png"/>
             </div>
 
-            <p class="howto nogap">Fai click sui quadrati per vedere i valori</p>
+            <p class="howto nogap">Fai click sui rombi per vedere i valori</p>
         </div>
 
             <div id="viz-2" class="viz">
@@ -2592,11 +2592,11 @@
 
                 <div class="focus-card">
                 <p class="legend-title">Legenda</p>
-                <p>Il grafico mostra la distribuzione delle correnti islamiche <span class="legend-key brown">Sciita</span> e <span class="legend-key yellow">Sunnita</span> nelle nazioni musulmane. I valori sono normalizzati a 100% per ogni paese.</p>
+                <p>Il grafico mostra la distribuzione delle correnti islamiche <span class="legend-key brown">Sciita</span> e <span class="legend-key yellow">Sunnita</span> nelle nazioni musulmane. I valori sono normalizzati a 100% per ogni Paese.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_5.png"/>
                 </div>
                 
-                <p class="howto nogap">Fai click sui quadrati per vedere i valori</p>
+                <p class="howto nogap">Fai click sui rombi per vedere i valori</p>
             </div>
 
         <div id="viz-5" class="viz">
