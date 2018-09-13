@@ -2569,15 +2569,15 @@
 
             <div class="viz">
                 <h5>Paesi laici</h5>
-                <img src="https://alezotta.github.io/travel-the-distance-git/images/test.svg"/>
+                <img src="https://alezotta.github.io/travel-the-distance-git/images/viz4_1.svg"/>
             </div>
             <div class="viz">
                 <h5>Paesi religiosi</h5>
-                <img src="https://alezotta.github.io/travel-the-distance-git/images/test2.svg"/>
+                <img src="https://alezotta.github.io/travel-the-distance-git/images/viz4_2.svg"/>
             </div>
             <div class="viz">
                 <h5>Paesi ambigui</h5>   
-                <img src="https://alezotta.github.io/travel-the-distance-git/images/test3.svg"/>
+                <img src="https://alezotta.github.io/travel-the-distance-git/images/viz4_3.svg"/>
             </div>
 
             <div class="sources">
@@ -3815,7 +3815,7 @@
 
             <div id="viz-7" class="viz">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1930.38 1257.5">
-                  <title>mappa attentati</title>
+                  <title>viz-7_mappa attentati_ita</title>
                   <g id="SFONDO">
                     <g>
                       <line x1="1930.43" y1="59.5" x2="0.07" y2="59.5" style="fill: none;stroke: #585756;stroke-miterlimit: 10"/>
@@ -3965,31 +3965,31 @@
                     <polyline points="1930.82 875.75 1929.32 875.75 1929.32 915.75 1907.32 915.75 1907.32 936.75 1867.32 936.75 1867.32 956.75 1887.32 956.75 1887.32 977.75 1907.32 977.75 1907.32 997.75 1832.32 997.75 1832.38 1016.75 1868.7 1016.75 1889.32 1016.75 1889.32 1040.75 1867.32 1040.75 1867.32 1059.75 1889.32 1059.75 1889.32 1080.75 1910.32 1080.75 1910.32 1059.75 1929.32 1059.75 1929.32 1041.75 1930.82 1041.75" style="fill: #2e2d2c;stroke: #fff;stroke-miterlimit: 10"/>
                     <polyline points="1724.82 358.5 1743.82 358.5 1743.82 379.5 1763.82 379.5 1763.82 398.5 1863.82 398.5 1863.82 418.5 1882.82 418.5 1882.82 436.5 1902.82 436.5 1902.82 456.5 1931.07 456.5" style="fill: #2e2d2c;stroke: #fff;stroke-miterlimit: 10"/>
                     <polyline points="1724.82 598.5 1744.82 598.5 1744.82 637.5 1764.82 637.5 1764.82 660.5 1805.32 660.5 1805.32 679 1785.32 679 1785.32 698 1805.32 698 1805.32 738.75 1785.32 738.75 1785.32 718 1765.32 718 1765.32 698.5 1724.83 698.5" style="fill: #2e2d2c;stroke: #fff;stroke-miterlimit: 10"/>
-                    <rect x="681.22" y="514.97" width="57.25" height="57.25" transform="translate(-176.47 661.15) rotate(-45)" style="fill: #fdfaf1;stroke: #ffb600;stroke-miterlimit: 10"/>
+                    <rect x="681.22" y="514.97" width="57.25" height="57.25" transform="translate(-176.47 661.15) rotate(-45)" style="fill: #eeba5c;stroke: #ffb600;stroke-miterlimit: 10"/>
                     <g style="isolation: isolate">
-                      <rect x="808.52" y="779.49" width="15.9" height="15.9" transform="translate(-317.66 807.97) rotate(-45)" style="fill: #fdfaf1;fill-opacity: 0.2;stroke: #ffb600;stroke-miterlimit: 10"/>
+                      <rect x="808.52" y="779.49" width="15.9" height="15.9" transform="translate(-317.66 807.97) rotate(-45)" style="fill: #eeba5c;fill-opacity: 0.2;stroke: #ffb600;stroke-miterlimit: 10"/>
                     </g>
                     <g>
-                      <rect x="944.47" y="930.41" width="15.9" height="15.9" transform="translate(-384.56 948.3) rotate(-45)" style="fill: #fdfaf1;opacity: 0.2"/>
+                      <rect x="944.47" y="930.41" width="15.9" height="15.9" transform="translate(-384.56 948.3) rotate(-45)" style="fill: #eeba5c;opacity: 0.2"/>
                       <rect x="944.47" y="930.41" width="15.9" height="15.9" transform="translate(-384.56 948.3) rotate(-45)" style="fill: none;stroke: #ffb600;stroke-miterlimit: 10"/>
                     </g>
                     <g>
-                      <rect x="1155.68" y="937.6" width="21.47" height="21.47" transform="translate(-328.94 1102.54) rotate(-45)" style="fill: #fdfaf1;opacity: 0.2"/>
+                      <rect x="1155.68" y="937.6" width="21.47" height="21.47" transform="translate(-328.94 1102.54) rotate(-45)" style="fill: #eeba5c;opacity: 0.2"/>
                       <rect x="1155.68" y="937.6" width="21.47" height="21.47" transform="translate(-328.94 1102.54) rotate(-45)" style="fill: none;stroke: #ffb600;stroke-miterlimit: 10"/>
                     </g>
                     <g>
-                      <rect x="1403.4" y="980.83" width="57.25" height="57.25" transform="translate(-294.36 1308.25) rotate(-45)" style="fill: #fdfaf1;opacity: 0.2"/>
+                      <rect x="1403.4" y="980.83" width="57.25" height="57.25" transform="translate(-294.36 1308.25) rotate(-45)" style="fill: #eeba5c;opacity: 0.2"/>
                       <rect x="1403.4" y="980.83" width="57.25" height="57.25" transform="translate(-294.36 1308.25) rotate(-45)" style="fill: none;stroke: #ffb600;stroke-miterlimit: 10"/>
                     </g>
                     <g>
-                      <rect x="1201.86" y="754.35" width="107.34" height="107.34" transform="translate(-203.62 1124.46) rotate(-45)" style="fill: #fdfaf1;opacity: 0.7000000000000001"/>
+                      <rect x="1201.86" y="754.35" width="107.34" height="107.34" transform="translate(-203.62 1124.46) rotate(-45)" style="fill: #eeba5c;opacity: 0.7000000000000001"/>
                       <rect x="1201.86" y="754.35" width="107.34" height="107.34" transform="translate(-203.62 1124.46) rotate(-45)" style="fill: none;stroke: #ffb600;stroke-miterlimit: 10"/>
                     </g>
                     <g>
-                      <rect x="1279.99" y="846.84" width="15.9" height="15.9" transform="translate(-227.2 1161.07) rotate(-45)" style="fill: #fdfaf1;opacity: 0.2"/>
+                      <rect x="1279.99" y="846.84" width="15.9" height="15.9" transform="translate(-227.2 1161.07) rotate(-45)" style="fill: #eeba5c;opacity: 0.2"/>
                       <rect x="1279.99" y="846.84" width="15.9" height="15.9" transform="translate(-227.2 1161.07) rotate(-45)" style="fill: none;stroke: #ffb600;stroke-miterlimit: 10"/>
                     </g>
-                    <rect x="1209.14" y="657.65" width="78.72" height="78.72" transform="translate(-127.18 1086.97) rotate(-45)" style="fill: #fdfaf1;fill-opacity: 0.9500000000000001;stroke: #ffb600;stroke-miterlimit: 10"/>
+                    <rect x="1209.14" y="657.65" width="78.72" height="78.72" transform="translate(-127.18 1086.97) rotate(-45)" style="fill: #eeba5c;fill-opacity: 0.9500000000000001;stroke: #ffb600;stroke-miterlimit: 10"/>
                   </g>
                   <g id="ArabiaSaudita-attacks">
                     <rect x="130.39" y="59.5" width="359.51" height="239" style="fill: #f9f8f4;stroke: #2e2d2c;stroke-miterlimit: 10;stroke-width: 0.999999938405143px"/>
