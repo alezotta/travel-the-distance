@@ -116,7 +116,7 @@ d3.csv("https://alezotta.github.io/travel-the-distance-git/libs/data/viz6_en.csv
         .attr("text-anchor", "end")
         .attr("x", width - 6)
         .attr("y", height - 6)
-        .text("Popolazione musulmana");
+        .text("Muslim population");
 
   //y-axis label.
   svg.append("text")
@@ -126,7 +126,7 @@ d3.csv("https://alezotta.github.io/travel-the-distance-git/libs/data/viz6_en.csv
         .attr("y", margin + 6)
         .attr("dy", ".75em")
         .attr("transform", "rotate(-90)")
-        .text("Coefficiente di Gini");
+        .text("Gini index");
 
   //apply fisheye
   svg.on("mousemove", function() {

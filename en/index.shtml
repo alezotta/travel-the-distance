@@ -170,7 +170,7 @@
             <div class="focus-card">
             <p class="legend-title">Visual key</p>
             <p>Alla chiamata per unirsi al gruppo terroristico hanno risposto persone da tutto il mondo, pure dai paesi più distanti. Sulla mappa sottostante, la posizione di ogni paese riflette la <span class="legend-key">distanza geografica</span> tra ogni paese e la destinazione. I paesi verso sinistra si trovano a ovest rispetto alla destinazione; i paesi verso destra si trovano a est rispetto alla destinazione.</p>
-            <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/en/visualkey_3.png"/>
+            <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_3.png"/>
             </div>
 
             <p class="howto">Scroll map horizontally</p>
