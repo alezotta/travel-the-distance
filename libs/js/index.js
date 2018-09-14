@@ -90,11 +90,11 @@ $(function() {
 function navMenu() {
     let x = document.getElementById("menu");
     if (x.className === "topnav" || "topnav affix-menu") {
-        x.addClass("responsive");
+        x.classList.add("responsive");
     }
 }
 
 function navMenuChiudi() {
     let x = document.getElementById("menu");
-        x.removeClass("responsive");
+        x.classList.remove("responsive");
     }
