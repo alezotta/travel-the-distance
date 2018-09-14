@@ -101,7 +101,7 @@
             </a>
     </nav>
 
-    <div id="lang">
+    <div id="lang" class="">
             <a href="https://alezotta.github.io/travel-the-distance-git/en/index.shtml"><div class="lang"><span>ENG</span></div></a>
             <a href="#"><div class="lang"><span class="currentLang">ITA</span></div></a>
     </div>

@@ -16,6 +16,20 @@ $(document).ready(function() {
 
 $(function() {
    $(window).scroll(function () {
+      if ($(this).scrollTop() >= $("#menu").position().top) {
+         $("#menu").addClass("affix")
+         $("#lang").addClass("affix")
+         $("h1").addClass("changePaddingTop")
+      }
+      if ($(this).scrollTop() < $("#scrollTop1").position().top - 200 | $(this).scrollTop() >= $("#scrollTop2").position().top - 200) {
+         $("body").removeClass("changeColor")
+         $("h3").removeClass("changeColor-outline")
+      }
+   });
+});
+
+$(function() {
+   $(window).scroll(function () {
       if ($(this).scrollTop() >= $("#scrollTop1").position().top - 200 & $(this).scrollTop() < $("#scrollTop2").position().top - 200) {
          $("body").addClass("changeColor")
          $("h3").addClass("changeColor-outline")

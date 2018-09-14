@@ -223,7 +223,7 @@ i {
     text-transform: uppercase;
     justify-content: left;
     align-items: center;
-    position: fixed;
+    /*position: fixed;*/
     flex-wrap: wrap;
     overflow: hidden;
     top: 0;
@@ -271,6 +271,7 @@ i {
 }
 
 /* DA RIMUOVERE */
+
 header {
     background: #095278;
     overflow: hidden;
@@ -285,6 +286,7 @@ header #top {
     position: relative;
 }
 
+/* FINE DA RIMUOVERE */
 
 #lang {
     font-family: 'main-bold', sans-serif;
@@ -292,7 +294,7 @@ header #top {
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     display: inline-block;
-    position: fixed;
+    /*position: fixed;*/
     right: 0;
     z-index: 9999;
 }
@@ -345,6 +347,7 @@ h1 {
     padding-right: 50px;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+    transition: padding-top 0.3s ease;
 }
 
 h1::selection {
@@ -731,6 +734,15 @@ footer p{
 }
 
 /* elementi di stile */
+
+.affix {
+    position: fixed!important;
+}
+
+.changePaddingTop {
+    padding-top: 30%;
+    transition: padding-top 0.3s ease;
+}
 
 .highlight-ondark {
     background-color: rgba(255,255,255,0.15);
