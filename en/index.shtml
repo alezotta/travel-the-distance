@@ -87,7 +87,7 @@
             </a>
             <a href="#issue" onclick="navMenuChiudi()">
                 <div class="nav-link">
-                    <span id="nav-issue" class="inactive">Lurk</span>
+                    <span id="nav-issue" class="inactive">Lurking</span>
                 </div>
             </a>
             <a href="#remark" onclick="navMenuChiudi()">
@@ -3834,7 +3834,7 @@
         <div id="issue">
             
                 <div class="main-column">
-                <h3>Lurk</h3>
+                <h3>Lurking</h3>
                 <p class="text-uni">Since 2012, Europe and the Middle East have become the stage of bloody attacks against the population, seen from ISIS’ violent point of view as a mass of &laquo;infidels.&raquo; The virus of terror has spread to all countries. The feeling of insecurity derived from the impact of the attacks and the impossibility of knowing if, where and when a stroke could occur, has been leading the population to a constant state of alarm. Populistic policies and events of racist oppression against immigrants are consequences and reactions to this feeling, the concern of becoming a target when in fact, we have all been hit already.</p>
 
                 <div class="focus-card">
