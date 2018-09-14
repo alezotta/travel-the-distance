@@ -900,7 +900,7 @@ hr {
     }
 
     .changePaddingTop {
-        padding-top: 25%;
+        padding-top: 60%;
         transition: padding-top 0.3s ease 0.3s;
     }
 }
