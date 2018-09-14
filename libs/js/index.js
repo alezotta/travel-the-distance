@@ -90,9 +90,9 @@ $(function() {
 function navMenu() {
     let x = document.getElementById("menu");
     if (x.className === "topnav" || "topnav affix-menu") {
-        x.className += " responsive";
-        console.log("aggiunto la classe eheh");
-    } if (x.classList.contains("responsive"){
+        x.classList.add("responsive");
+        console.log("aggiungo la classe");
+    } else {
         x.classList.remove("responsive");
         console.log("leggo la classe ma non la tolgo");
     }
@@ -101,4 +101,5 @@ function navMenu() {
 function navMenuChiudi() {
     let x = document.getElementById("menu");
         x.classList.remove("responsive");
+        console.log("rimosso la classe");
     }
