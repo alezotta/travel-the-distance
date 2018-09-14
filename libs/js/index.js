@@ -21,9 +21,10 @@ $(function() {
          $("#lang").addClass("affix")
          $("h1").addClass("changePaddingTop")
       }
-      if ($(this).scrollTop() < $("#scrollTop1").position().top - 200 | $(this).scrollTop() >= $("#scrollTop2").position().top - 200) {
-         $("body").removeClass("changeColor")
-         $("h3").removeClass("changeColor-outline")
+      if ($(this).scrollTop() < $("#menu").position().top) {
+         $("#menu").removeClass("affix")
+         $("#lang").removeClass("affix")
+         $("h1").removeClass("changePaddingTop")
       }
    });
 });
