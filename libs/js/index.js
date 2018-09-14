@@ -91,6 +91,8 @@ function navMenu() {
     let x = document.getElementById("menu");
     if (x.className === "topnav" || "topnav affix-menu") {
         x.classList.add("responsive");
+    } else {
+        x.classList.remove("responsive");
     }
 }
 
