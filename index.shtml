@@ -63,7 +63,9 @@
 
 	
 	<!-- ### CONTENT ### -->
-	<nav id="menu" class="topnav">
+	<div id="navTrigger"></div>
+
+    <nav id="menu" class="topnav">
             <a href="javascript:void(0);" class="chapters" onclick="navMenu()">
                 <div class="nav-link">
                     <span class="inactive">Capitoli</span>
@@ -96,10 +98,10 @@
             </a>
     </nav>
 
-    <header class="header">
-            <a href="https://alezotta.github.io/travel-the-distance-git/en/index.shtml"><div class="lang"><span>ENG</span></div></a>
+    <div id="lang" class="">
+            <a href="https://alezotta.github.io/travel-the-distance-git/en/index.shtml"><div class="lang"><span class="otherLang">ENG</span></div></a>
             <a href="#"><div class="lang"><span class="currentLang">ITA</span></div></a>
-    </header>
+    </div>
 
     <section id="title">
     <div id="introduction">

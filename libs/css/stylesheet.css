@@ -77,7 +77,7 @@
 
 html {
     font-size: 100%;
-    font-family: 'solferino_regular', serif;
+    font-family: 'solferinotext-light-webfont', serif;
 }
 
 ::selection {
@@ -104,6 +104,7 @@ body {
 }
 
 p {
+    font-family: 'solferinotext-light-webfont', serif;
     text-align: left;
     font-size: 1.125rem;
     line-height: 1.7rem;
@@ -202,6 +203,11 @@ i {
     line-height: 1.375rem;
 }
 
+.focus-card b {
+    font-family: 'main-bold', sans-serif;
+    font-weight:normal!important;
+}
+
 .focus-card hr {
    border: 0.5px solid #ababab; 
    margin-top: 0px;
@@ -217,13 +223,11 @@ i {
 .topnav {
     background: #191919;
     display: flex;
-    font-family: 'main-bold', sans-serif;
     font-size: 0.75rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     justify-content: left;
     align-items: center;
-    position: fixed;
     flex-wrap: wrap;
     overflow: hidden;
     top: 0;
@@ -251,12 +255,14 @@ i {
 }
 
 .active {
+    font-family: 'main-bold', sans-serif!important;
     padding-bottom: 2px;
     border-bottom: solid 1px #C15846;
     transition: border-bottom 0.3s ease;
 }
 
 .inactive {
+    font-family: 'main-bold', sans-serif!important;
     padding-bottom: 2px;
     border-bottom: solid 1px #191919;
     transition: border-bottom 0.3s ease;
@@ -270,18 +276,14 @@ i {
     display: none;
 }
 
-header {
+#lang {
     font-family: 'main-bold', sans-serif;
     font-size: 0.75rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    display: inline-block;
-    z-index: 9999;
-}
-
-.header {
-    position: fixed;
+    display: none;
     right: 0;
+    z-index: 9999;
 }
 
 .lang {
@@ -291,30 +293,35 @@ header {
     padding: 13px 24px 13px 12px;
 }
 
-header a {
+#lang a {
     color: #ffffff;
     text-decoration: none;
 }
 
-header a:hover {
+#lang a:hover {
     color: #ffffff;
     text-decoration: none;
 }
 
-header span {
+#lang span {
     padding-bottom: 2px;
     border-bottom: solid 1px #191919;
 }
 
-header span:hover {
+#lang span:hover {
     padding-bottom: 2px;
     border-bottom: solid 1px #FCC64F;
     transition: border-bottom 0.3s ease;
 }
 
 .currentLang {
+    font-family: 'main-bold', sans-serif!important;
     padding-bottom: 2px;
-    border-bottom: solid 1px #FCC64F;
+    border-bottom: solid 1px #FCC64F!important;
+}
+
+.otherLang {
+    font-family: 'main-bold', sans-serif!important;
 }
 
 /* titolo iniziale */
@@ -332,6 +339,7 @@ h1 {
     padding-right: 50px;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+    transition: padding-top 0.3s ease;
 }
 
 h1::selection {
@@ -586,6 +594,7 @@ svg {
 }
 
 .sources a {
+    font-family: 'main-regular', sans-serif;
     text-decoration: none;
     color: #ababab;
 }
@@ -636,15 +645,12 @@ footer p{
     color: #191919;
 }
 
-.author {
+.about-card .author a {
     font-family: "main-bold", sans-serif!important;
-}
-
-.author a{
     border-bottom: 1px solid #191919!important;
 }
 
-.author a:hover {
+.about-card .author a:hover {
     border-bottom: 1px solid #FCC64F!important;
 }
 
@@ -675,6 +681,7 @@ footer p{
 }
 
 .about-card a {
+    font-family: 'main-regular', sans-serif;
     color: #e9e9e9;
     text-decoration: none;
     border-bottom: 1px solid #e9e9e9;
@@ -717,9 +724,30 @@ footer p{
     padding: 2px 15px;
 }
 
+#main_footer.ftr_xl {
+    max-width:100%!important;
+}
+
 /* elementi di stile */
 
+.affix-menu {
+    position: fixed!important;
+}
+
+.affix-lang {
+    position: fixed!important;
+    top: 0;
+    display: inline-block!important;
+}
+
+
+.changePaddingTop {
+    padding-top: 25%;
+    transition: padding-top 0.3s ease 0.3s;
+}
+
 .highlight-ondark {
+    font-family: 'main-regular', sans-serif;
     background-color: rgba(255,255,255,0.15);
 }
 
@@ -869,6 +897,11 @@ hr {
 
     .mobile-hide {
         display: none;
+    }
+
+    .changePaddingTop {
+        padding-top: 25%;
+        transition: padding-top 0.3s ease 0.3s;
     }
 }
 
