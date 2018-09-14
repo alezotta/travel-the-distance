@@ -111,7 +111,7 @@
                 <div class="main-column">
                     <div class="focus-card make-light">
                     <p class="legend-title">Legenda</p>
-                    <p>I punti di seguito rappresentano un singolo <span class="legend-key">foreign fighter</span>: il colore indica il genere, se disponibile, della persona.</p>
+                    <p>Ogni pallino rappresenta <span class="legend-key">5 foreign fighter</span>. Il colore mostra se sono disponibili dati sulla persona, in questo caso sul genere.</p>
                     <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_1.png"/>
                     </div>
                 </div>
@@ -3775,7 +3775,7 @@
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_6.png"/>
                 <hr/>
                 <p><b>Coefficiente di Gini</b>: indice che misura la disuguaglianza nella distribuzione del reddito dei residenti di una nazione. È un numero compreso tra 0 e 1, dove 0 corrisponde a un’assoluta uguaglianza e 1 (o 100%) corrisponde a una totale disuguaglianza. <span class="highlight-onlight">I paesi con un valore basso sono quelli dove il reddito è distribuito più equamente</span>.</p>
-                <p class="nopadtop legend-note">Il dato economico non è disponibile per i seguenti paesi dello studio: Afganistan, Algeria, Arabia Saudita, Bahrain, Egitto, Emirati Arabi Uniti, Giordania, Iraq, Kuwait, Libano, Libia, Nuova Zelanda, Qatar, Singapore, Somalia, Yemen.</p>
+                <p class="nopadtop legend-note">Il dato economico non è disponibile per i seguenti paesi dello studio: Afghanistan, Algeria, Arabia Saudita, Bahrain, Egitto, Emirati Arabi Uniti, Giordania, Iraq, Kuwait, Libano, Libia, Nuova Zelanda, Qatar, Singapore, Somalia, Yemen.</p>
             </div>
 
             <p class="howto nogap mobile-hide">Sposta il mouse sul grafico</p>
@@ -3807,7 +3807,7 @@
 
                 <div class="focus-card">
                 <p class="legend-title">Legenda</p>
-                <p>La mappa riporta l’intensità e il numero di attacchi rivendicati dall’ISIS in Europa e area mediterranea tra il 2012 e il 2015. La dimensione del rombo rappresenta il <span class="legend-key">numero di attacchi</span>, mentre l’intensità del colore il <span class="legend-key">numero di vittime</span>.</p>
+                <p>La mappa interattiva riporta l’intensità e il numero di attacchi rivendicati dall’ISIS in Europa e area mediterranea tra il 2012 e il 2015. La dimensione del rombo rappresenta il <span class="legend-key">numero di attacchi</span>, mentre l’intensità del colore il <span class="legend-key">numero di vittime</span>.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_7.png"/>
                 </div>
                 
@@ -4283,7 +4283,7 @@
 
                 <div class="focus-card make-light">
                 <p class="legend-title">Legenda</p>
-                <p>La mappa mostra il rateo di foreign fighter rispetto alla popolazione musulmana per ogni nazione espresso in parti per milione.</p>
+                <p>La mappa interattiva mostra una geografia deformata del mondo. Ogni Paese è stato ridimensionato in base al numero di foreign fighter che sono partiti da quel paese rispetto alla popolazione musulmana. Questo rapporto è espresso in parti per milione.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/images/visualkey_8.png"/>
                 </div>
                 

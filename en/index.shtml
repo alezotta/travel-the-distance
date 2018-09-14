@@ -111,7 +111,7 @@
                 <div class="main-column">
                     <div class="focus-card make-light">
                     <p class="legend-title">Visual key</p>
-                    <p>I punti di seguito rappresentano un singolo <span class="legend-key">foreign fighter</span>: il colore indica il genere, se disponibile, della persona.</p>
+                    <p>Each dot represents <span class="legend-key">5 foreign fighters</span>. Color of the dot shows when personal data is available, in this case about gender.</p>
                     <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_1.png"/>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
 
             <div class="focus-card">
             <p class="legend-title">Visual key</p>
-                <p>I rombi di seguito mostrano quanti foreign fighter hanno viaggiato fino ai territori del conflitto. Il valore rappresentato con la dimensione di ogni rombo è il <span class="legend-key">numero di combattenti</span> che ha lasciato il proprio Paese.</p>
+                <p>The squares below show how many foreign fighters traveled to the territories of the conflict. The value displayed with the size of each square is the <span class="legend-key">number of fighters</span> that left their country.</p>
             <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_2.png"/>
             </div>
 
@@ -169,7 +169,7 @@
 
             <div class="focus-card">
             <p class="legend-title">Visual key</p>
-            <p>Alla chiamata per unirsi al gruppo terroristico hanno risposto persone da tutto il mondo, pure dai paesi più distanti. Sulla mappa sottostante, la posizione di ogni paese riflette la <span class="legend-key">distanza geografica</span> tra ogni paese e la destinazione. I paesi verso sinistra si trovano a ovest rispetto alla destinazione; i paesi verso destra si trovano a est rispetto alla destinazione.</p>
+            <p>The call to join the terroristic group was answered by people all over the world, even from the most distant countries. On the map below, the position of each country reflects the <span class="legend-key">geographical distance</span> from each country to the destination. Countries to the left are located to the West from the destination territory; countries to the right are located to the East.</p>
             <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_3.png"/>
             </div>
 
@@ -203,7 +203,7 @@
 
                 <div class="focus-card">
                 <p class="legend-title">Visual key</p>
-                <p>I triangoli di seguito mostrano il rapporto tra la <span class="legend-key">popolazione musulmana</span> di una nazione ed il <span class="legend-key">numero di foreign fighter</span> partiti dalla stessa; le nazioni sono ordinante per il numero di combattenti, divise per il rapporto tra stato e religione; il colore rappresenta il continente di appartenenza.</p>
+                <p>You can see the relation of <span class="legend-key">muslim population</span> of a country to the <span class="legend-key">number of foreign fighters</span> that left from it. Countries are ordered by number of fighters and divided into three sections for secular, religious or ambiguous. Color helps to identify continents.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_4.png"/>
                 </div>
                 
@@ -234,7 +234,7 @@
 
                 <div class="focus-card">
                 <p class="legend-title">Visual key</p>
-                <p>Il grafico mostra la distribuzione delle correnti islamiche <span class="legend-key brown">Sciita</span> e <span class="legend-key yellow">Sunnita</span> nelle nazioni musulmane. I valori sono normalizzati a 100% per ogni Paese.</p>
+                <p>The next interactive graphics shows the distribution of Islam confessions of <span class="legend-key brown">Shia</span> and <span class="legend-key yellow">Sunni</span> in Islamic countries. Values are normalized to 100% for each country.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_5.png"/>
                 </div>
                 
@@ -258,11 +258,11 @@
 
             <div class="focus-card">
                 <p class="legend-title">Visual key</p>
-                <p>Il grafico riporta il rapporto tra il <span class="legend-key">coefficiente di Gini</span> e la <span class="legend-key">popolazione musulmana</span> di ogni stato. La dimensione di ogni rombo rappresenta il <span class="legend-key">rapporto tra il numero di foreign fighter e la popolazione musulmana</span>. Dimensioni maggiori significano più foreign fighter rispetto alla popolazione musulmana del paese.</p>
+                <p>The interactive graph correlates the economic data of the <span class="legend-key">Gini index</span> and the <span class="legend-key">muslim population</span> of the countries. Each rhombus varies in size to show the <span class="legend-key">ratio of foreign fightes to Muslim population</span>: bigger size means more fighters over the country's Muslim population.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_6.png"/>
                 <hr/>
-                <p><b>Gini index</b>: indice che misura la disuguaglianza nella distribuzione del reddito dei residenti di una nazione. È un numero compreso tra 0 e 1, dove 0 corrisponde a un’assoluta uguaglianza e 1 (o 100%) corrisponde a una totale disuguaglianza. <span class="highlight-onlight">I paesi con un valore basso sono quelli dove il reddito è distribuito più equamente</span>.</p>
-                <p class="nopadtop legend-note">Il dato economico non è disponibile per i seguenti paesi dello studio: Afganistan, Algeria, Arabia Saudita, Bahrain, Egitto, Emirati Arabi Uniti, Giordania, Iraq, Kuwait, Libano, Libia, Nuova Zelanda, Qatar, Singapore, Somalia, Yemen.</p>
+                <p><b>Gini index</b>: index that measures the inequality in income distribution of a nation’s residents. It is a number between 0 and 1, where 0 corresponds to perfect equality and 1 (or 100%) corresponds to perfect inequality. <span class="highlight-onlight">Countries with a lower index are those where income is distributed more equally</span>.</p>
+                <p class="nopadtop legend-note">The economic data is not available for the following countries of study: Afghanistan, Algeria, Bahrain, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, New Zealand, Qatar, Saudi Arabia, Singapore, Somalia, United Arab Emirates, Yemen.</p>
             </div>
 
             <p class="howto nogap mobile-hide">Move mouse across graph</p>
@@ -294,7 +294,7 @@
 
                 <div class="focus-card">
                 <p class="legend-title">Visual key</p>
-                <p>La mappa riporta l’intensità e il numero di attacchi rivendicati dall’ISIS in Europa e area mediterranea tra il 2012 e il 2015. La dimensione del rombo rappresenta il <span class="legend-key">numero di attacchi</span>, mentre l’intensità del colore il <span class="legend-key">numero di vittime</span>.</p>
+                <p>The map below shows the intensity and the number of the attacks that were claimed by ISIS in Europe and in the Mediterranean area between 2012 and 2015. Size of the rhombus represents the <span class="legend-key">number of attacks</span>, while color intensity the <span class="legend-key">number of victims</span>.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_7.png"/>
                 </div>
                 
@@ -324,7 +324,7 @@
 
                 <div class="focus-card make-light">
                 <p class="legend-title">Visual key</p>
-                <p>La mappa mostra il rateo di foreign fighter rispetto alla popolazione musulmana per ogni nazione espresso in parti per milione.</p>
+                <p>The interactive map shows a deformed geography of the world. Each country was resized according to how many foreign fighters left over the Muslim population of the country. This ratio is expressed in parts per million.</p>
                 <img class="visual-key" src="https://alezotta.github.io/travel-the-distance-git/en/images/visualkey_8.png"/>
                 </div>
                 
