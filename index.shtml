@@ -141,7 +141,7 @@
 
             <div class="main-column">
             <h3>Radici mancanti</h3>
-            <p class="text">I <i>foreign fighter</i> (&laquo;combattenti stranieri&raquo;) sono persone che per una serie di motivi e contesti ideologici, si uniscono a un conflitto armato in un’altra terra. Sono decine di migliaia i combattenti che hanno lasciato il loro Paese per prendere parte al conflitto nei territori di Iraq e Siria. Hanno lasciato le proprie case guidati dalla <i>Jihad</i>, letteralmente &laquo;sforzo teso verso uno scopo&raquo;, termine inteso, secondo i testi sacri all’Islam, come spinta profonda per migliorare il credente spiritualmente e culturalmente, ma che ha subìto una manipolazione da coloro che istigano a una &laquo;guerra santa&raquo; islamica, assumendo così un significato distorto e violento.</p>
+            <p>I <i>foreign fighter</i> (&laquo;combattenti stranieri&raquo;) sono persone che per una serie di motivi e contesti ideologici, si uniscono a un conflitto armato in un’altra terra. Sono decine di migliaia i combattenti che hanno lasciato il loro Paese per prendere parte al conflitto nei territori di Iraq e Siria. Hanno lasciato le proprie case guidati dalla <i>Jihad</i>, letteralmente &laquo;sforzo teso verso uno scopo&raquo;, termine inteso, secondo i testi sacri all’Islam, come spinta profonda per migliorare il credente spiritualmente e culturalmente, ma che ha subìto una manipolazione da coloro che istigano a una &laquo;guerra santa&raquo; islamica, assumendo così un significato distorto e violento.</p>
             <p>Lo Stato Islamico di Iraq e Siria (Isis) è solo uno dei numerosi gruppi partecipanti agli scontri. Tuttavia una mirata e attenta propaganda, assieme a una lettura profondamente estremista dei testi sacri della religione islamica, hanno portato tra le file dell’organizzazione terroristica migliaia di proseliti. La lotta per la creazione di uno stato islamico si sposta così dai confini politici di Siria e Iraq per coinvolgere il mondo intero.</p>
 
             <div class="focus-card">
@@ -2519,7 +2519,7 @@
             <div class="sources">
                 
                 <p>Source: <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/z572rt0dln20sj6/dataset_viz_2.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/z572rt0dln20sj6/dataset_viz_2.csv?dl=0" target="_blank">Scarica dataset</a>
                 </p>
                     
             </div>
@@ -2547,7 +2547,7 @@
            
             <div class="sources">
                 <p>Fonti: <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a>, <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/e193wfn8gculx0f/dataset_viz_3.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/e193wfn8gculx0f/dataset_viz_3.csv?dl=0" target="_blank">Scarica dataset</a>
                 </p>
             </div>
         </div>
@@ -2557,7 +2557,7 @@
             <div class="main-column">
                 <h3>Contesto</h3>
                 <h4>Guerre di religione</h4>
-                <p class="text">L’epicentro del conflitto si trova in Siria e Iraq, ma la guerra coinvolge oggi i Paesi confinanti e tutta la comunità internazionale. I pellegrinaggi ai territori degli scontri si originano a partire anche da quei contesti regionalistici all’apparenza esterni alla causa dello stato islamico.</p>
+                <p>L’epicentro del conflitto si trova in Siria e Iraq, ma la guerra coinvolge oggi i Paesi confinanti e tutta la comunità internazionale. I pellegrinaggi ai territori degli scontri si originano a partire anche da quei contesti regionalistici all’apparenza esterni alla causa dello stato islamico.</p>
                 <p>Come molte altre organizzazioni di ispirazione islamica, l’obiettivo finale di <i>Daesh</i>, acronimo in lingua araba del gruppo Isis, è l’instaurazione della propria interpretazione di <i>Shari’a</i>, la legge di Allah. Un ordine diverso non è da loro considerato possibile. È in questo modo che la religione diviene strumento di legittimazione di azioni e attacchi dei combattenti.</p>
                 <p>La guerra per l’instaurazione della <i>Shari’a</i> è perseguita dai <i>foreign fighter</i> a partire dal loro Paese di provenienza, in cui i processi di radicalizzazione comportano conversioni alla religione islamica. All’armata dello stato islamico si aggiungono ai musulmani di seconda o terza generazione anche i cosiddetti &laquo;convertiti dell’ultimo minuto&raquo;, che scelgono la conversione all’Islam nella sua forma più estremista.</p>
 
@@ -2584,7 +2584,7 @@
 
             <div class="sources">
                 <p>Fonti: <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a>, <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/tlxjjj27eoetvvl/dataset_viz_4.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/tlxjjj27eoetvvl/dataset_viz_4.csv?dl=0" target="_blank">Scarica dataset</a>
                 </p>
             </div>
 
@@ -3761,13 +3761,13 @@
             
             <div class="sources">
                 <p>Source: <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/d4ozlvrpm5pytet/dataset_viz_5.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/d4ozlvrpm5pytet/dataset_viz_5.csv?dl=0" target="_blank">Scarica dataset</a>
                 </p>
             </div>
 
             <div class="main-column">
                 <h4>Integrazione e radicalizzazione</h4>
-                <p class="text">La maggior parte dei <i>foreign fighter</i> si compone di giovani, talvolta giovanissimi, musulmani immigrati di seconda o terza generazione che vivono un forte senso di inadeguatezza, spesso determinato dalla disoccupazione e difficoltà di integrazione. La guerra delle milizie dell’Isis rappresenta per molti di loro una possibilità di riscatto, con garanzie e promesse di miglioramento della propria condizione economica e dello status all’interno di una società.</p>
+                <p>La maggior parte dei <i>foreign fighter</i> si compone di giovani, talvolta giovanissimi, musulmani immigrati di seconda o terza generazione che vivono un forte senso di inadeguatezza, spesso determinato dalla disoccupazione e difficoltà di integrazione. La guerra delle milizie dell’Isis rappresenta per molti di loro una possibilità di riscatto, con garanzie e promesse di miglioramento della propria condizione economica e dello status all’interno di una società.</p>
                 <p>Il continuo aumento di combattenti stranieri e il moltiplicarsi del numero di attentati di matrice jihadista in Occidente, porta a riflettere sulle cause del malcontento e della difficoltà di inserimento sociale. L’Isis ne è ben consapevole e sfrutta per il suo tornaconto queste vulnerabilità, direzionando le opere di proselitismo non soltanto ai luoghi legati alle cerimonie islamiche. La nuova guerra del terrore si combatte in lingua inglese, sul web, seguendo una tanto precisa quanto professionale social media strategy e ponendosi quasi come un brand, la cui immagine è costruita attorno a un marchio del terrore.</p>
 
             <div class="focus-card">
@@ -3793,7 +3793,7 @@
 
             <div class="sources">
                 <p>Fonti: <a href="http://data.worldbank.org/" target="_blank">The World Bank</a>, <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/hwi08ssck1df2ay/dataset_viz_6.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/hwi08ssck1df2ay/dataset_viz_6.csv?dl=0" target="_blank">Scarica dataset</a>
                 </p>
             </div>
         </div>
@@ -4267,7 +4267,7 @@
 
             <div class="sources">
                 <p>Source: <a href="https://www.start.umd.edu/gtd/" target="_blank">Global Terrorism Database</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/yed3njh273skmg0/dataset_viz_7.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/yed3njh273skmg0/dataset_viz_7.csv?dl=0" target="_blank">Scarica dataset</a>
                 </p>
             </div>
 
@@ -4280,7 +4280,7 @@
         <div class="large-column">
             <div class="main-column">
                 <h3 class="h3-on-black">De-forma</h3>
-                <p class="text">I <i>foreign fighter</i> sono combattenti &laquo;stranieri&raquo; per la Siria ed &laquo;estranei&raquo; al loro stesso Paese. Emarginazione e diseguaglianze portano a vivere al limite e ad essere al limite. Ciò può condurre a spingersi oltre, a superare i confini fisici e di civiltà. I Paesi subiscono le conseguenze delle pressioni sui propri confini e si deformano. Dove de-forma, è la negazione della bellezza. Si è davanti a un paradosso, quel viaggio verso la Mesopotamia, culla di Civiltà, si traduce in un percorso involutivo, che distrugge e cancella dal Tempo e dalla Storia il passaggio dei popoli in quelle Terre. La guerra civile siriana è una guerra di civiltà combattuta oltre i confini di tutti i Paesi, ormai logori.</p>
+                <p>I <i>foreign fighter</i> sono combattenti &laquo;stranieri&raquo; per la Siria ed &laquo;estranei&raquo; al loro stesso Paese. Emarginazione e diseguaglianze portano a vivere al limite e ad essere al limite. Ciò può condurre a spingersi oltre, a superare i confini fisici e di civiltà. I Paesi subiscono le conseguenze delle pressioni sui propri confini e si deformano. Dove de-forma, è la negazione della bellezza. Si è davanti a un paradosso, quel viaggio verso la Mesopotamia, culla di Civiltà, si traduce in un percorso involutivo, che distrugge e cancella dal Tempo e dalla Storia il passaggio dei popoli in quelle Terre. La guerra civile siriana è una guerra di civiltà combattuta oltre i confini di tutti i Paesi, ormai logori.</p>
 
                 <div class="focus-card make-light">
                 <p class="legend-title">Legenda</p>
@@ -8960,7 +8960,7 @@
 
             <div class="sources">
                 <p>Fonti: <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a>, <a href="http://soufangroup.com/" target="_blank">The Soufan Group</a></p>
-                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/q23k9qsyp6nyifj/dataset_viz_8.csv?dl=0" target="_blank">Scarica il dataset</a>
+                <p><img class="download-icon" src="https://alezotta.github.io/travel-the-distance-git/images/download-onlight.svg"/> <a href="https://www.dropbox.com/s/q23k9qsyp6nyifj/dataset_viz_8.csv?dl=0" target="_blank">Scarica dataset</a>
                 </p>
             </div>
 

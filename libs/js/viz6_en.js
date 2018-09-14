@@ -18,7 +18,7 @@ let svg = d3.select("#viz-6")
 
 //scales
 let colors = d3.scaleOrdinal()
-    .domain(["Europa", "America", "Asia", "Africa", "Oceania"])
+    .domain(["Europe", "America", "Asia", "Africa", "Oceania"])
     .range(["#FAC44D", "#F2D6AD", "#9F8A66", "#F0863C", "#C06C38"])
 
 let x = d3.scaleLog()
@@ -49,7 +49,7 @@ let yAxis = d3.axisLeft(y)
               .ticks(10)
               .tickSize(- width + margin)
 
-d3.csv("https://alezotta.github.io/travel-the-distance-git/libs/data/viz6_it.csv", function(error, data) {
+d3.csv("https://alezotta.github.io/travel-the-distance-git/libs/data/viz6_en.csv", function(error, data) {
 	if (error) throw error
 
 	x.domain(d3.extent(data, d => +d.muslim_population))
