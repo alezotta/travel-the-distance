@@ -92,7 +92,7 @@ function navMenu() {
     if (x.className === "topnav" || "topnav affix-menu") {
         x.classList.add("responsive");
     } else {
-        x.classList.remove("responsive");
+        x.className = "topnav affix-menu");
     }
 }
 
