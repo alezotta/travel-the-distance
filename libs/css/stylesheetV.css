@@ -293,8 +293,7 @@ header #top {
     font-size: 0.75rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    display: inline-block;
-    /*position: fixed;*/
+    display: none;
     right: 0;
     z-index: 9999;
 }
@@ -735,10 +734,16 @@ footer p{
 
 /* elementi di stile */
 
-.affix {
+.affix-menu {
+    position: fixed!important;
+}
+
+.affix-lang {
     position: fixed!important;
     top: 0;
+    display: inline-block!important;
 }
+
 
 .changePaddingTop {
     padding-top: 25%;

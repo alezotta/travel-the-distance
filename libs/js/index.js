@@ -17,13 +17,13 @@ $(document).ready(function() {
 $(function() {
    $(window).scroll(function () {
       if ($(this).scrollTop() >= $("#navTrigger").position().top) {
-         $("#menu").addClass("affix")
-         $("#lang").addClass("affix")
+         $("#menu").addClass("affix-menu")
+         $("#lang").addClass("affix-lang")
          $("h1").addClass("changePaddingTop")
       }
       if ($(this).scrollTop() < $("#navTrigger").position().top) {
-         $("#menu").removeClass("affix")
-         $("#lang").removeClass("affix")
+         $("#menu").removeClass("affix-menu")
+         $("#lang").removeClass("affix-lang")
          $("h1").removeClass("changePaddingTop")
       }
    });
