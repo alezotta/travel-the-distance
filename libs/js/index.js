@@ -89,17 +89,16 @@ $(function() {
 
 function navMenu() {
     let x = document.getElementById("menu");
-    if (x.className === "topnav" || "topnav affix-menu") {
+    if (x.classList.contains("responsive")) {
+        x.classList.remove("responsive");
+        console.log("tolgo la classe");
+    } else {
         x.classList.add("responsive");
         console.log("aggiungo la classe");
-    } else {
-        x.classList.remove("responsive");
-        console.log("leggo la classe ma non la tolgo");
     }
 }
 
 function navMenuChiudi() {
     let x = document.getElementById("menu");
         x.classList.remove("responsive");
-        console.log("rimosso la classe");
     }
