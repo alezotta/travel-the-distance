@@ -737,11 +737,12 @@ footer p{
 
 .affix {
     position: fixed!important;
+    top: 0;
 }
 
 .changePaddingTop {
-    padding-top: 30%;
-    transition: padding-top 0.3s ease;
+    padding-top: 25%;
+    transition: padding-top 0.3s ease 0.3s;
 }
 
 .highlight-ondark {

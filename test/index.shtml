@@ -68,6 +68,8 @@
     </header>
 
 	<!-- ### CONTENT ### -->
+    <div id="navTrigger"></div>
+
 	<nav id="menu" class="topnav">
             <a href="javascript:void(0);" class="chapters" onclick="navMenu()">
                 <div class="nav-link">
