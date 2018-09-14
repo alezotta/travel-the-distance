@@ -12,8 +12,6 @@ $(document).ready(function() {
             $("#title").css({"height":vph + "px"});
         }
 
-
-
 $(function() {
    $(window).scroll(function () {
       if ($(this).scrollTop() >= $("#navTrigger").position().top) {
@@ -41,7 +39,6 @@ $(function() {
       }
    });
 });
-
 
 $(function() {
    $(window).scroll(function () {
@@ -89,3 +86,15 @@ $(function() {
       }
    });
 });
+
+function navMenu() {
+    let x = document.getElementById("menu");
+    if (x.className === "topnav" || "topnav affix-menu") {
+        x.addClass("responsive");
+    }
+}
+
+function navMenuChiudi() {
+    let x = document.getElementById("menu");
+        x.removeClass("responsive");
+    }

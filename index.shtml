@@ -9024,24 +9024,6 @@ $(document).ready(function(){
   });
 });
 </script>
-
-<script>
-function navMenu() {
-    var x = document.getElementById("menu");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-
-function navMenuChiudi() {
-    var x = document.getElementById("menu");
-        x.className = "topnav";
-    }
-
-</script>
-
 	
 	<!-- *** footer di sistema *** -->
 	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/footer.shtml"-->
