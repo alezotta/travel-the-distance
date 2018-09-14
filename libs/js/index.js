@@ -93,6 +93,9 @@ function navMenu() {
         x.classList.add("responsive");
     } else if (x.className === "topnav responsive" || "topnav affix-menu responsive"){
         x.classList.remove("responsive");
+        console.log("leggo la classe ma non la tolgo");
+    } else {
+      console.log("clicco ma non faccio niente");
     }
 }
 
